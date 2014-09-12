@@ -1,0 +1,81 @@
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.pdb
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csprojResolveAssemblyReference.cache
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.Properties.Resources.resources
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csproj.GenerateResource.Cache
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb
+c:\users\kirapc\documents\visual studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfSesion.resources
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csprojResolveAssemblyReference.cache
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfFormulario_Usuario.resources
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfSesion.resources
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.Properties.Resources.resources
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csproj.GenerateResource.Cache
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.pdb
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Conexion.dll
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Datos_Sesion.dll
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Negocio_Sesion.dll
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\MySql.Data.dll
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Conexion.pdb
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Datos_Sesion.pdb
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Inicio de Sesion\bin\Debug\Negocio_Sesion.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Controls.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Video.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Conexion.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Datos_Sesion.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Negocio_Sesion.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\MySql.Data.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Conexion.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Datos_Sesion.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\bin\Debug\Negocio_Sesion.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfFormularioUsuario.resources
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfTomarFoto.resources
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.pdb
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Controls.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Video.DirectShow.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Video.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Conexion.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Datos_Sesion.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Negocio_Sesion.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\MySql.Data.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Conexion.pdb
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Datos_Sesion.pdb
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\bin\Debug\Negocio_Sesion.pdb
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csprojResolveAssemblyReference.cache
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfFormularioUsuario.resources
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfSesion.resources
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.Properties.Resources.resources
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfTomarFoto.resources
+E:\Diseño de Sistemas\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csproj.GenerateResource.Cache
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.pdb
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Controls.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\AForge.Video.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Conexion.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Datos_Sesion.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Negocio_Sesion.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\MySql.Data.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Conexion.pdb
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Datos_Sesion.pdb
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Negocio_Sesion.pdb
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csprojResolveAssemblyReference.cache
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfFormularioUsuario.resources
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfSesion.resources
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.Properties.Resources.resources
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfTomarFoto.resources
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csproj.GenerateResource.Cache
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\WebCam_Capture.dll
