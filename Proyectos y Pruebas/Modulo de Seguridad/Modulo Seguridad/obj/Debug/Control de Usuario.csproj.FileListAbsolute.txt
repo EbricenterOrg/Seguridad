@@ -1,0 +1,8 @@
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\bin\Debug\Control de Usuario.dll
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\bin\Debug\Control de Usuario.pdb
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control de Usuario.csprojResolveAssemblyReference.cache
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control_de_Usuario.Properties.Resources.resources
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Componente_de_Conexion.UcControlUsuario.resources
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control de Usuario.csproj.GenerateResource.Cache
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control de Usuario.dll
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control de Usuario.pdb

@@ -1,0 +1,7 @@
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\bin\Debug\Componente de Conexion.dll
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\bin\Debug\Componente de Conexion.pdb
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Componente de Conexion.csprojResolveAssemblyReference.cache
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Componente_de_Conexion.UserControl1.resources
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Componente de Conexion.csproj.GenerateResource.Cache
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Componente de Conexion.dll
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Componente de Conexion.pdb

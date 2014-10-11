@@ -79,3 +79,6 @@ C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de S
 C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfTomarFoto.resources
 C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.csproj.GenerateResource.Cache
 C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\WebCam_Capture.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Diseño Sistemas - Seguridad\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb
