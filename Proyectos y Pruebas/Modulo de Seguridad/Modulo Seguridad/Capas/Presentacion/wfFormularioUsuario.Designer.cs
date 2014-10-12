@@ -54,14 +54,14 @@
             this.lblDireccionImagen = new System.Windows.Forms.Label();
             this.btnCargarImagen = new System.Windows.Forms.Button();
             this.gbxPrivilegios = new System.Windows.Forms.GroupBox();
-            this.pcbFotoUsuario = new System.Windows.Forms.PictureBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.pcbFotoUsuario = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.gbxPrivilegios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbFotoUsuario)).BeginInit();
@@ -70,6 +70,8 @@
             // 
             // panel1
             // 
+            this.panel1.AutoSize = true;
+            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.BackColor = System.Drawing.SystemColors.Desktop;
             this.panel1.Controls.Add(this.lblValidarPassword);
             this.panel1.Controls.Add(this.label9);
@@ -95,7 +97,7 @@
             this.panel1.Controls.Add(this.lblTitulo);
             this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(378, 573);
+            this.panel1.Size = new System.Drawing.Size(364, 441);
             this.panel1.TabIndex = 1;
             // 
             // lblValidarPassword
@@ -351,28 +353,17 @@
             this.gbxPrivilegios.TabStop = false;
             this.gbxPrivilegios.Text = "Privilegios";
             // 
-            // pcbFotoUsuario
+            // radioButton3
             // 
-            this.pcbFotoUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pcbFotoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pcbFotoUsuario.Location = new System.Drawing.Point(409, 12);
-            this.pcbFotoUsuario.Name = "pcbFotoUsuario";
-            this.pcbFotoUsuario.Size = new System.Drawing.Size(117, 159);
-            this.pcbFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcbFotoUsuario.TabIndex = 24;
-            this.pcbFotoUsuario.TabStop = false;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(16, 26);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(164, 21);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Administrador Global";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(16, 53);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(171, 21);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Administrador de Area";
+            this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
@@ -386,17 +377,28 @@
             this.radioButton2.Text = "Usuario Estandar";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // radioButton1
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(16, 53);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(171, 21);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Administrador de Area";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(16, 26);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(164, 21);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Administrador Global";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // pcbFotoUsuario
+            // 
+            this.pcbFotoUsuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pcbFotoUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pcbFotoUsuario.Location = new System.Drawing.Point(409, 12);
+            this.pcbFotoUsuario.Name = "pcbFotoUsuario";
+            this.pcbFotoUsuario.Size = new System.Drawing.Size(117, 159);
+            this.pcbFotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbFotoUsuario.TabIndex = 24;
+            this.pcbFotoUsuario.TabStop = false;
             // 
             // groupBox1
             // 
@@ -413,14 +415,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Perfil";
             // 
-            // comboBox1
+            // button1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(68, 30);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(196, 25);
-            this.comboBox1.TabIndex = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(16, 79);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(248, 23);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Asignación de Aplicaciones";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
@@ -433,32 +437,37 @@
             this.label10.TabIndex = 24;
             this.label10.Text = "Perfil";
             // 
-            // button1
+            // comboBox1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(16, 79);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(248, 23);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Asignación de Aplicaciones";
-            this.button1.UseVisualStyleBackColor = true;
+            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(68, 30);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(196, 25);
+            this.comboBox1.TabIndex = 0;
             // 
             // wfFormularioUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(699, 498);
+            this.ClientSize = new System.Drawing.Size(570, 501);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbxPrivilegios);
             this.Controls.Add(this.lblDireccionImagen);
             this.Controls.Add(this.btnCargarImagen);
             this.Controls.Add(this.pcbFotoUsuario);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(263, 60);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(570, 501);
+            this.MinimumSize = new System.Drawing.Size(570, 501);
             this.Name = "wfFormularioUsuario";
             this.Text = "Formulario Usuario";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.gbxPrivilegios.ResumeLayout(false);
@@ -467,6 +476,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

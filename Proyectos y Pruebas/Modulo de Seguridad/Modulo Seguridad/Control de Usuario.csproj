@@ -31,10 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Navegador">
-      <HintPath>..\..\..\..\GitHub\Navegador\Proyectos\Pruebas Navegador\Pruebas Navegador\bin\Debug\Navegador.dll</HintPath>
+      <HintPath>..\..\..\..\Navegador\Proyectos\Pruebas Navegador\Pruebas Navegador\bin\Debug\Navegador.dll</HintPath>
     </Reference>
     <Reference Include="ODBCconnector">
-      <HintPath>..\..\..\..\GitHub\HotelSanCarlos\Proyectos\Objetos Comunes\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Desktop\ODBCconnector v2.0\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,7 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Capas\Datos\csPerfilUsuario.cs" />
     <Compile Include="Capas\Negocio\csControles.cs" />
+    <Compile Include="Capas\Negocio\csInicioSesion.cs" />
     <Compile Include="Capas\Presentacion\cuInicioSesion.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -59,6 +61,12 @@
     </Compile>
     <Compile Include="Capas\Presentacion\wfAdministracion.Designer.cs">
       <DependentUpon>wfAdministracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capas\Presentacion\wfAdministradorPrueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capas\Presentacion\wfAdministradorPrueba.Designer.cs">
+      <DependentUpon>wfAdministradorPrueba.cs</DependentUpon>
     </Compile>
     <Compile Include="Capas\Presentacion\wfFormularioUsuario.cs">
       <SubType>Form</SubType>
@@ -91,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Capas\Presentacion\wfAdministracion.resx">
       <DependentUpon>wfAdministracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capas\Presentacion\wfAdministradorPrueba.resx">
+      <DependentUpon>wfAdministradorPrueba.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capas\Presentacion\wfFormularioUsuario.resx">
       <DependentUpon>wfFormularioUsuario.cs</DependentUpon>
@@ -136,9 +147,7 @@
   <ItemGroup>
     <None Include="Resources\Password.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Capas\Datos\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

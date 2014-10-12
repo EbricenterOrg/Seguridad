@@ -16,5 +16,12 @@ namespace Control_de_Usuario.Capas.Presentacion
         {
             InitializeComponent();
         }
+
+        private void tsbUsuario_Click(object sender, EventArgs e)
+        {
+            wfFormularioUsuario MDI_FormUsuario = new wfFormularioUsuario();
+            MDI_FormUsuario.MdiParent = this;
+            MDI_FormUsuario.Show();
+        }
     }
 }

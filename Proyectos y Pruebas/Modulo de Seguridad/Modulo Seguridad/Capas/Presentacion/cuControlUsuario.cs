@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Control_de_Usuario.Capas.Presentacion;
 
 namespace Componente_de_Conexion
 {
@@ -37,6 +38,11 @@ namespace Componente_de_Conexion
                     MessageBox.Show("No Existe Ninguna de las versiones de ODBC","ERROR");
                 }
             }
+        }
+
+        private void administrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new wfAdministradorPrueba().Show();
         }
     }
 }

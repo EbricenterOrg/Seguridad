@@ -44,7 +44,6 @@
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.navegador1 = new Navegador.Navegador();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -118,6 +117,7 @@
             this.tsbUsuario.Name = "tsbUsuario";
             this.tsbUsuario.Size = new System.Drawing.Size(255, 52);
             this.tsbUsuario.Text = " Usuarios";
+            this.tsbUsuario.Click += new System.EventHandler(this.tsbUsuario_Click);
             // 
             // toolStripButton2
             // 
@@ -219,29 +219,16 @@
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.toolStrip1.Size = new System.Drawing.Size(260, 585);
+            this.toolStrip1.Size = new System.Drawing.Size(260, 573);
             this.toolStrip1.Stretch = true;
             this.toolStrip1.TabIndex = 1;
-            // 
-            // navegador1
-            // 
-            this.navegador1.alDatosEntrada = null;
-            this.navegador1.alDatosSalida = null;
-            this.navegador1.bEjecutarEvento = false;
-            this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(263, 0);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(765, 54);
-            this.navegador1.sNombreTabla = null;
-            this.navegador1.TabIndex = 3;
             // 
             // wfAdministracion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1028, 585);
-            this.Controls.Add(this.navegador1);
+            this.ClientSize = new System.Drawing.Size(857, 573);
             this.Controls.Add(this.toolStrip1);
             this.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.Control;
@@ -273,7 +260,6 @@
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripLabel toolStripLabel3;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private Navegador.Navegador navegador1;
 
 
 

@@ -101,7 +101,6 @@
             this.btnGuardarFoto.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnGuardarFoto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarFoto.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnGuardarFoto.Image = global::Control_de_Usuario.Properties.Resources.Camara;
             this.btnGuardarFoto.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGuardarFoto.Location = new System.Drawing.Point(3, 294);
             this.btnGuardarFoto.Name = "btnGuardarFoto";

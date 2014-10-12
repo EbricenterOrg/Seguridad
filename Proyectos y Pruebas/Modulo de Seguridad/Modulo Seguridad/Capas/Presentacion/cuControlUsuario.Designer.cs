@@ -54,12 +54,12 @@
             // 
             // TscMenuOpciones.ContentPanel
             // 
-            this.TscMenuOpciones.ContentPanel.Size = new System.Drawing.Size(207, 0);
+            this.TscMenuOpciones.ContentPanel.Size = new System.Drawing.Size(192, 0);
             this.TscMenuOpciones.LeftToolStripPanelVisible = false;
             this.TscMenuOpciones.Location = new System.Drawing.Point(63, 53);
             this.TscMenuOpciones.Name = "TscMenuOpciones";
             this.TscMenuOpciones.RightToolStripPanelVisible = false;
-            this.TscMenuOpciones.Size = new System.Drawing.Size(207, 25);
+            this.TscMenuOpciones.Size = new System.Drawing.Size(192, 25);
             this.TscMenuOpciones.TabIndex = 1;
             this.TscMenuOpciones.Text = "toolStripContainer1";
             // 
@@ -73,7 +73,7 @@
             this.TsbConexion});
             this.TsMenuUsuario.Location = new System.Drawing.Point(63, 53);
             this.TsMenuUsuario.Name = "TsMenuUsuario";
-            this.TsMenuUsuario.Size = new System.Drawing.Size(208, 25);
+            this.TsMenuUsuario.Size = new System.Drawing.Size(223, 25);
             this.TsMenuUsuario.TabIndex = 0;
             // 
             // TsdbArchivo
@@ -96,7 +96,6 @@
             // 
             // TsmiCerrarSesion
             // 
-   
             this.TsmiCerrarSesion.Name = "TsmiCerrarSesion";
             this.TsmiCerrarSesion.Size = new System.Drawing.Size(152, 22);
             this.TsmiCerrarSesion.Text = "Cerrar Sesión";
@@ -116,7 +115,7 @@
             // 
             // notificadorToolStripMenuItem
             // 
-               this.notificadorToolStripMenuItem.Name = "notificadorToolStripMenuItem";
+            this.notificadorToolStripMenuItem.Name = "notificadorToolStripMenuItem";
             this.notificadorToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.notificadorToolStripMenuItem.Text = "Notificador";
             // 
@@ -133,6 +132,7 @@
             this.administrarToolStripMenuItem.Name = "administrarToolStripMenuItem";
             this.administrarToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.administrarToolStripMenuItem.Text = "Administrar";
+            this.administrarToolStripMenuItem.Click += new System.EventHandler(this.administrarToolStripMenuItem_Click);
             // 
             // TssMenuUsuario
             // 
@@ -141,10 +141,10 @@
             // 
             // TsbConexion
             // 
-             this.TsbConexion.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.TsbConexion.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.TsbConexion.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.TsbConexion.Name = "TsbConexion";
-            this.TsbConexion.Size = new System.Drawing.Size(72, 22);
+            this.TsbConexion.Size = new System.Drawing.Size(56, 22);
             this.TsbConexion.Text = "Conexión";
             this.TsbConexion.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.TsbConexion.Click += new System.EventHandler(this.TsbConexion_Click);
@@ -192,7 +192,7 @@
             this.Controls.Add(this.TscMenuOpciones);
             this.Controls.Add(this.pboImagenUsuario);
             this.Name = "UcControlUsuario";
-            this.Size = new System.Drawing.Size(271, 81);
+            this.Size = new System.Drawing.Size(260, 81);
             this.Load += new System.EventHandler(this.UcControlUsuario_Load);
             this.TscMenuOpciones.ResumeLayout(false);
             this.TscMenuOpciones.PerformLayout();
