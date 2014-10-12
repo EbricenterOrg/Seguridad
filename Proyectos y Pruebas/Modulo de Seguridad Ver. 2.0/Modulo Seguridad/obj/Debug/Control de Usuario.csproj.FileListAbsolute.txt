@@ -1,0 +1,25 @@
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\bin\Debug\Control de Usuario.dll
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\bin\Debug\Control de Usuario.pdb
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control de Usuario.csprojResolveAssemblyReference.cache
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control_de_Usuario.Properties.Resources.resources
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Componente_de_Conexion.UcControlUsuario.resources
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control de Usuario.csproj.GenerateResource.Cache
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control de Usuario.dll
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Componente de Conexion\Componente de Conexion\obj\Debug\Control de Usuario.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control_de_Usuario.Capas.Presentacion.cuInicioSesion.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control_de_Usuario.Capas.Presentacion.wfAdministracion.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control_de_Usuario.Capas.Presentacion.wfFormularioUsuario.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control_de_Usuario.Capas.Presentacion.wfTomarFoto.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control_de_Usuario.Properties.Resources.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Componente_de_Conexion.UcControlUsuario.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control de Usuario.csproj.GenerateResource.Cache
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control de Usuario.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\bin\Debug\Control de Usuario.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\bin\Debug\Control de Usuario.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\bin\Debug\Navegador.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\bin\Debug\ODBCconnector.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\bin\Debug\Navegador.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\bin\Debug\ODBCconnector.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control de Usuario.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control_de_Usuario.Capas.Presentacion.wfAdministradorPrueba.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control de Usuario.csprojResolveAssemblyReference.cache
