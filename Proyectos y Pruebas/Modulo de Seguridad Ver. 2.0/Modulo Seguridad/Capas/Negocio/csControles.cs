@@ -6,38 +6,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Navegador;
-using System.Windows.Forms;
 
-namespace Control_de_Usuario
+namespace Componente_de_Conexion
 {
-    class csControles
+    public class csControles
     {
-       
-        private Bitmap BmpImagen;
-        private String sNombreUsuario;
-        private String sPerfil;
-        private String sPrivilegio;
-      
-           
-        public String NombreUsuario 
-        { 
-            get { return sNombreUsuario; } 
-            set { sNombreUsuario = value; } 
-        }
+        private Bitmap gbBmpImagen;
+        private String gbsNombreUsuario;
+        private String gbsPerfil;
+        private String gbsPrivilegio;
+        private byte[] gbbImagen;
 
-        public String Privilegio 
-        {
-            get { return sPrivilegio; } 
-            set { sPrivilegio = value; } 
-        }
+        
 
-        public String Perfil 
-        {
-            get { return sPerfil; } 
-            set { sPerfil = value; } 
-        }
+        public byte[] CargarImagen{ get { return gbbImagen; } set { gbbImagen = value; } }
+         
+        public String NombreUsuario { get { return gbsNombreUsuario; } set { gbsNombreUsuario = value; } }
 
-      
+        public String Privilegio { get { return gbsPrivilegio; } set { gbsPrivilegio = value; } }
+
+        public String Perfil { get { return gbsPerfil; } set { gbsPerfil = value; } }
 
     }
 }

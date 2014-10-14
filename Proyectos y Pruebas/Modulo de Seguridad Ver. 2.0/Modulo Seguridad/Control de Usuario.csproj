@@ -50,19 +50,19 @@
     <Compile Include="Capas\Datos\csPerfilUsuario.cs" />
     <Compile Include="Capas\Negocio\csControles.cs" />
     <Compile Include="Capas\Negocio\csInicioSesion.cs" />
-    <Compile Include="Capas\Presentacion\GestorUsuario.cs">
+    <Compile Include="Capas\Presentacion\cuInicioSesion.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Capas\Presentacion\GestorUsuario.Designer.cs">
-      <DependentUpon>GestorUsuario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Capas\Presentacion\InicioSesion.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Capas\Presentacion\InicioSesion.Designer.cs">
-      <DependentUpon>InicioSesion.cs</DependentUpon>
+    <Compile Include="Capas\Presentacion\cuInicioSesion.Designer.cs">
+      <DependentUpon>cuInicioSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Capas\Presentacion\cuControlUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Capas\Presentacion\cuControlUsuario.Designer.cs">
+      <DependentUpon>cuControlUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -70,15 +70,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Capas\Presentacion\GestorUsuario.resx">
-      <DependentUpon>GestorUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Capas\Presentacion\InicioSesion.resx">
-      <DependentUpon>InicioSesion.cs</DependentUpon>
+    <EmbeddedResource Include="Capas\Presentacion\cuInicioSesion.resx">
+      <DependentUpon>cuInicioSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capas\Presentacion\cuControlUsuario.resx">
+      <DependentUpon>cuControlUsuario.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
