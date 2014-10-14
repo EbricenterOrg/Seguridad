@@ -1,6 +1,6 @@
 ﻿namespace Control_de_Usuario.Capas.Presentacion
 {
-    partial class cuInicioSesion
+    partial class InicioSesion
     {
         /// <summary> 
         /// Variable del diseñador requerida.

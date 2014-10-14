@@ -1,6 +1,6 @@
 ﻿/* Desarrollador: Jorge Lam
  * Fecha: 09/10/2014
- * Comentario: Programación de la funcion Control de Errores
+ * Comentario: Programación de Incio de Sesion y 
  */
 
 using System;
@@ -18,24 +18,20 @@ using System.IO;
 using System.Net;
 
 
+
 namespace Control_de_Usuario.Capas.Negocio
 {
     class csInicioSesion
     {
+          private static Form fFormPrincipal; 
         private String sQuery = String.Empty;
         private IPHostEntry ipHostName; 
-        private static Form fFormPrincipal; 
         private ArrayList alResultados = null;
         private byte[] gbbImagen;
         private Bitmap[] BmpImagen = new Bitmap[6];
         private String[] sCuentas = new String[6];
         private csPerfilUsuario Perfil = new csPerfilUsuario();
-      
-        public Form FormularioPrincipal
-        {
-            get { return fFormPrincipal; }
-            set { fFormPrincipal = value; }
-        }
+        private csControles Control = new csControles();
 
         public void vValidarUsuario(String sUser, String sPass)
         {
@@ -71,6 +67,7 @@ namespace Control_de_Usuario.Capas.Negocio
                         Perfil.CodigoAplicacionesPersonales = Convert.ToInt32(Datos[4]);
                         Perfil.CodigoPerfilApliacion = Convert.ToInt32(Datos[5]);
                     }
+                    vCargarMenuPrincipal();
                 } 
                 else 
                 {
@@ -80,9 +77,11 @@ namespace Control_de_Usuario.Capas.Negocio
 
         private void vCargarMenuPrincipal()
         {
+
+            Form fFormPrincipal = Perfil.FormularioPrincipalMenu;
              if(fFormPrincipal!=null)
              {
-                Application.EnableVisualStyles();
+                Application.EnableVisualStyles(); 
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(fFormPrincipal);
              }
@@ -136,7 +135,7 @@ namespace Control_de_Usuario.Capas.Negocio
                 bmpImagen = new Bitmap(MemoryStream);
                 return bmpImagen;
             }
-            catch (Exception er)
+            catch (Exception)
             {
                 // gbBmpImagen = global::Control_de_Usuario.Properties.Resources.UserDefault;
                 return bmpImagen;

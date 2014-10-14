@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Control_de_Usuario.Capas.Datos
 {
@@ -15,6 +16,7 @@ namespace Control_de_Usuario.Capas.Datos
         private int iCodSesion;
         private int iCodUsuario;
         private int iCodAplicacionesPersonales;
+        private static Form fFormPrincipal; 
 
         public int CodigoEmpleado
         {
@@ -50,6 +52,12 @@ namespace Control_de_Usuario.Capas.Datos
         {
             get { return iCodAplicacionesPersonales; }
             set { iCodAplicacionesPersonales = value; }
+        }
+
+        public Form FormularioPrincipalMenu 
+        {
+            get { return fFormPrincipal; }
+            set { fFormPrincipal = value; }
         }
     }
 }
