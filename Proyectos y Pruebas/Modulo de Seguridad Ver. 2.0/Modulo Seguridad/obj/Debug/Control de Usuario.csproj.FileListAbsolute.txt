@@ -23,3 +23,13 @@ C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo 
 C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control de Usuario.pdb
 C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control_de_Usuario.Capas.Presentacion.wfAdministradorPrueba.resources
 C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad\Modulo Seguridad\obj\Debug\Control de Usuario.csprojResolveAssemblyReference.cache
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\obj\Debug\Control_de_Usuario.Capas.Presentacion.GestorUsuario.resources
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\obj\Debug\Control_de_Usuario.Properties.Resources.resources
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\obj\Debug\Control de Usuario.csproj.GenerateResource.Cache
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\obj\Debug\Control de Usuario.dll
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\obj\Debug\Control de Usuario.pdb
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\obj\Debug\Control_de_Usuario.Capas.Presentacion.InicioSesion.resources
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\bin\Debug\Control de Usuario.dll
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\bin\Debug\Control de Usuario.pdb
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\bin\Debug\Navegador.pdb
+C:\Users\kiraPC\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modulo de Seguridad Ver. 2.0\Modulo Seguridad\bin\Debug\ODBCconnector.pdb

@@ -7,25 +7,19 @@ using System.Text;
 using System.Threading.Tasks;
 using Navegador;
 
-namespace Componente_de_Conexion
+namespace Control_de_Usuario.Capas.Negocio
 {
-    public class csControles
+    class csControles
     {
-        private Bitmap gbBmpImagen;
-        private String gbsNombreUsuario;
-        private String gbsPerfil;
-        private String gbsPrivilegio;
-        private byte[] gbbImagen;
-
-        
-
-        public byte[] CargarImagen{ get { return gbbImagen; } set { gbbImagen = value; } }
+        private Bitmap BmpImagen;
+        private String sNombreUsuario;
+        private String sPerfil;
+        private String sPrivilegio;
          
-        public String NombreUsuario { get { return gbsNombreUsuario; } set { gbsNombreUsuario = value; } }
-
-        public String Privilegio { get { return gbsPrivilegio; } set { gbsPrivilegio = value; } }
-
-        public String Perfil { get { return gbsPerfil; } set { gbsPerfil = value; } }
+        public Bitmap ImagenUsuario { get { return BmpImagen; } set { BmpImagen = value; } }
+        public String NombreUsuario { get { return sNombreUsuario; } set { sNombreUsuario = value; } }
+        public String Privilegio { get { return sPrivilegio; } set { sPrivilegio = value; } }
+        public String Perfil { get { return sPerfil; } set { sPerfil = value; } }
 
     }
 }

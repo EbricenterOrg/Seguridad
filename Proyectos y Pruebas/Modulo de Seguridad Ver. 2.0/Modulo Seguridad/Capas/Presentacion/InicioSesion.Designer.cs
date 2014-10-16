@@ -1,6 +1,6 @@
 ﻿namespace Control_de_Usuario.Capas.Presentacion
 {
-    partial class cuInicioSesion
+    partial class InicioSesion
     {
         /// <summary> 
         /// Variable del diseñador requerida.
@@ -32,18 +32,18 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblTitulo1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pcbFotoUsuario = new System.Windows.Forms.PictureBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.cmbUsuario = new System.Windows.Forms.ComboBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lklPregunta = new System.Windows.Forms.LinkLabel();
             this.btnCancelarSesion = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pcbUser = new System.Windows.Forms.PictureBox();
             this.pcbPass = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbFotoUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbPass)).BeginInit();
             this.SuspendLayout();
@@ -75,19 +75,28 @@
             this.lblTitulo1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblTitulo1.Location = new System.Drawing.Point(3, 0);
             this.lblTitulo1.Name = "lblTitulo1";
-            this.lblTitulo1.Size = new System.Drawing.Size(114, 39);
+            this.lblTitulo1.Size = new System.Drawing.Size(207, 39);
             this.lblTitulo1.TabIndex = 17;
-            this.lblTitulo1.Text = "Sesion";
+            this.lblTitulo1.Text = "Inicio Sesión";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(10, 71);
+            this.panel1.Controls.Add(this.pcbFotoUsuario);
+            this.panel1.Location = new System.Drawing.Point(26, 71);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(131, 159);
             this.panel1.TabIndex = 12;
+            // 
+            // pcbFotoUsuario
+            // 
+            this.pcbFotoUsuario.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.pcbFotoUsuario.Location = new System.Drawing.Point(3, 3);
+            this.pcbFotoUsuario.Name = "pcbFotoUsuario";
+            this.pcbFotoUsuario.Size = new System.Drawing.Size(123, 150);
+            this.pcbFotoUsuario.TabIndex = 0;
+            this.pcbFotoUsuario.TabStop = false;
             // 
             // txtPassword
             // 
@@ -149,15 +158,7 @@
             this.btnCancelarSesion.TabIndex = 22;
             this.btnCancelarSesion.Text = "Cancelar";
             this.btnCancelarSesion.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 150);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.btnCancelarSesion.Click += new System.EventHandler(this.btnCancelarSesion_Click);
             // 
             // pcbUser
             // 
@@ -197,10 +198,11 @@
             this.Controls.Add(this.lblUsuario);
             this.Name = "cuInicioSesion";
             this.Size = new System.Drawing.Size(469, 299);
+            this.Load += new System.EventHandler(this.cuInicioSesion_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbFotoUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbPass)).EndInit();
             this.ResumeLayout(false);
@@ -214,7 +216,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblTitulo1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pcbFotoUsuario;
         private System.Windows.Forms.PictureBox pcbUser;
         private System.Windows.Forms.PictureBox pcbPass;
         private System.Windows.Forms.TextBox txtPassword;

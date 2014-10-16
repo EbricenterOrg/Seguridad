@@ -12,7 +12,6 @@ using System.Windows.Forms;
 using ODBCconnector;
 using System.Collections;
 using Control_de_Usuario.Capas.Datos;
-using ODBCconnector.csFunciones;
 using System.Drawing;
 using System.IO;
 using System.Net;
@@ -24,18 +23,14 @@ namespace Control_de_Usuario.Capas.Negocio
     {
         private String sQuery = String.Empty;
         private IPHostEntry ipHostName; 
-        private static Form fFormPrincipal; 
         private ArrayList alResultados = null;
         private byte[] gbbImagen;
         private Bitmap[] BmpImagen = new Bitmap[6];
         private String[] sCuentas = new String[6];
         private csPerfilUsuario Perfil = new csPerfilUsuario();
+        private csControles Control = new csControles();
       
-        public Form FormularioPrincipal
-        {
-            get { return fFormPrincipal; }
-            set { fFormPrincipal = value; }
-        }
+   
 
         public void vValidarUsuario(String sUser, String sPass)
         {
@@ -80,11 +75,11 @@ namespace Control_de_Usuario.Capas.Negocio
 
         private void vCargarMenuPrincipal()
         {
-             if(fFormPrincipal!=null)
+             if(Perfil.FormularioPrincipal!=null)
              {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(fFormPrincipal);
+                Application.Run(Perfil.FormularioPrincipal);
              }
              else
              {
@@ -110,7 +105,7 @@ namespace Control_de_Usuario.Capas.Negocio
             ipHostName = Dns.GetHostEntry(Dns.GetHostName());
             foreach (IPAddress ip in ipHostName.AddressList)
             {
-                int Cont=0;
+                int iCont=0;
                 sQuery = "SELECT cuenta_usr, foto_usr FROM tabm_SGusuario T1  " +
                          "INNER JOIN tabt_SGsesion T2 ON T2.cod_usr = T1.cod_usr" +
                          "WHERE ipdir=" + ip.ToString() + "LIMIT 6";
@@ -119,8 +114,9 @@ namespace Control_de_Usuario.Capas.Negocio
                 {
                     foreach (ArrayList Datos in alResultados)
                     {
-                        sCuentas[Cont] = Datos[0].ToString();
-                        BmpImagen[Cont] = ObtenerImagen ((byte[])Datos[2]);
+                        sCuentas[iCont] = Datos[0].ToString();
+                        BmpImagen[iCont] = ObtenerImagen ((byte[])Datos[2]);
+                        iCont++;
                     }
                     break;
                 }

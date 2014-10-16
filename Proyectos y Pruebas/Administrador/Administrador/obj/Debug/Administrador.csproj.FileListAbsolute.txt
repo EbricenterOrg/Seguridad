@@ -1,0 +1,7 @@
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\Administrador.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\Administrador.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.Properties.Resources.resources
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.csproj.GenerateResource.Cache
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.Administracion.resources
