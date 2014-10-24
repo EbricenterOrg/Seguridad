@@ -8,14 +8,14 @@ namespace Modulo_de_Seguridad_2._1.Entidades
 {
     internal class E_Perfil
     {
-        private int iCodEmpleado;
-        private int iCodPerfil;
-        private int iCodPerfilAplicaciones;
-        private int iCodPerfilUsuario;
-        private int iCodPrivilegio;
-        private int iCodSesion;
-        private int iCodUsuario;
-        private int iCodAplicacionesPersonales;
+        private static int iCodEmpleado;
+        private static int iCodPerfil;
+        private static int iCodPerfilAplicaciones;
+        private static int iCodPerfilUsuario;
+        private static int iCodPrivilegio;
+        private static int iCodSesion;
+        private static int iCodUsuario;
+        private static int iCodAplicacionesPersonales;
 
 
         public int CodigoEmpleado

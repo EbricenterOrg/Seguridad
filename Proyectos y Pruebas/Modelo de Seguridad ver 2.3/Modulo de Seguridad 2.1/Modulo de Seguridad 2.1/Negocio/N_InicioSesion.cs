@@ -47,31 +47,33 @@ namespace Modulo_de_Seguridad_2._1
         {
             if (sUser.Length != 0 && sPass.Length != 0)
             {
-                if(bBuscarUsuario(sUser,sPass) == true)
+                try
                 {
-                    if(bComprobarFuente() == true)
+                    if (bBuscarUsuario(sUser, sPass) == true)
                     {
-                        if(bObtenerPrivilegio() == true) 
+                        if (bComprobarFuente() == true)
                         {
-                           if(bBuscarSesionesAbiertas() == true)
-                           {
-                               if (bMarcarSesionActiva() == true)
-                               {
-                                   if (bObtenerPerfilUsuario() == true)
-                                   {
-                                       if (bObtenerPerfil() == true)
-                                       {
-                                           wfInicioSesion.ActiveForm.Hide();
-                                           vCargarMenuPrincipal(bBuscarAplicaciones(), sFormPrincipal);
-                                       }
-                                   }
-                               }    
-                           }
+                            if (bObtenerPrivilegio() == true)
+                            {
+                                if (bBuscarSesionesAbiertas() == true)
+                                {
+                                    if (bMarcarSesionActiva() == true)
+                                    {
+                                        if (bObtenerPerfilUsuario() == true)
+                                        {
+                                            if (bObtenerPerfil() == true)
+                                            {
+                                                wfInicioSesion.ActiveForm.Hide();
+                                                vCargarMenuPrincipal(bBuscarAplicaciones(), sFormPrincipal);
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
                         }
                     }
-                }
-                
-                
+                } catch{}
             }
             else
             {

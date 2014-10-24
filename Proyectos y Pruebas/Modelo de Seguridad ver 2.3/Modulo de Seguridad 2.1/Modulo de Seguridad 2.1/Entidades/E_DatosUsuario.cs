@@ -9,8 +9,8 @@ namespace Modulo_de_Seguridad_2._1.Entidades
 {
     public class E_DatosUsuario
     {
-        private ArrayList alApps;
-        private int iCodUsr;
+        private static ArrayList alApps;
+        private static int iCodUsr;
 
         public ArrayList alAplicaciones
         {

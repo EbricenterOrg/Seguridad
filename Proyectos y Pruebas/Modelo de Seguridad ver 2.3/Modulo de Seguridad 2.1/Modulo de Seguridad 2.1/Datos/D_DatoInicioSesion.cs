@@ -99,7 +99,7 @@ namespace Modulo_de_Seguridad_2._1.Datos
             alResultados = csFunciones.alConsultar(sQuery);
             if (alResultados.Count == 0)
             {
-                return bObtenerSesion(); ;
+                return bCrearNuevaSesion();
             }
             else 
             {
@@ -110,40 +110,33 @@ namespace Modulo_de_Seguridad_2._1.Datos
 
         public bool bCrearNuevaSesion()
         {
-            sQuery = "SELECT MAX(cod_ses) FROM tabt_sgsesion ";
-            if (alResultados.Count != 0)
+            try
             {
-                foreach (ArrayList Datos in alResultados)
+                sQuery = "SELECT MAX(cod_ses) FROM tabt_sgsesion WHERE cod_usr = " + ePerfil.CodigoUsuario;
+                alResultados = csFunciones.alConsultar(sQuery);
+                if (alResultados.Count == 0)
                 {
-                    ePerfil.CodigoSesion = Convert.ToInt32(Datos[0]);
+                    sQuery = "INSERT INTO tabt_sgsesion (cod_usr,cod_ses,fechinic_ses,fechfin_ses,sesact_ses) VALUES (" + ePerfil.CodigoUsuario + ",1,NOW(),NOW(),0)";      
+                    csFunciones.vInsertar(sQuery);
+                }
+                else
+                {
+                    foreach (ArrayList Dato in alResultados)
+                    {
+                        ePerfil.CodigoSesion = Convert.ToInt32(Dato[0]) + 1;
+                        sQuery = "INSERT INTO tabt_sgsesion (cod_usr,cod_ses,fechinic_ses,fechfin_ses,sesact_ses) VALUES (" + ePerfil.CodigoUsuario + "," + ePerfil.CodigoSesion + ",NOW(),'0000-00-00',0)";
+                        csFunciones.vInsertar(sQuery);
+                    }
                 }
                 return true;
             }
-            else
+            catch
             {
-                MessageBox.Show("Error al obtener sesion");
+                MessageBox.Show("Error al crear la sesion");
                 return false;
             }
         }
 
-        public bool bObtenerSesion()
-        {
-            sQuery = "SELECT MAX(cod_ses) FROM tabt_sgsesion WHERE cod_usr = " + ePerfil.CodigoUsuario + " AND cod_ses IN (SELECT cod_ses FROM tabt_sgsesion WHERE fechfin_ses IS  NULL AND sesact_ses = 0 )";
-            alResultados = csFunciones.alConsultar(sQuery);
-            if (alResultados.Count != 0)
-            {
-                foreach (ArrayList Datos in alResultados)
-                {
-                    ePerfil.CodigoSesion = Convert.ToInt32(Datos[0]);
-                }
-                return true;
-            }
-            else
-            {
-                MessageBox.Show("Error al obtener sesion");
-                return false;
-            }
-        }
 
         public bool bMarcarSesionActiva()
         {

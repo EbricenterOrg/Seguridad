@@ -10,9 +10,9 @@ using System.IO;
 
 namespace Modulo_de_Seguridad_2._1.Datos
 {
-    internal class D_DatoControlUsr 
+    internal class D_DatoControlUsr:  E_Perfil
     {
-        private E_Perfil ePerfil = new E_Perfil();
+        
         private E_Usuario eUsuario = new E_Usuario();
         private String sQuery = String.Empty;
 
@@ -20,7 +20,8 @@ namespace Modulo_de_Seguridad_2._1.Datos
         {
             try 
             {
-                sQuery = "UPDATE tabt_sgsesion SET fechfin_ses = NOW(), sesact_ses = 1 WHERE cod_ses = " + ePerfil.CodigoSesion;
+                MessageBox.Show(CodigoSesion.ToString());
+                sQuery = "UPDATE tabt_sgsesion SET sesact_ses = 0, fechfin_ses = NOW() WHERE cod_ses = " + CodigoSesion;
                 csFunciones.vModificar(sQuery);
                 return true;
             }

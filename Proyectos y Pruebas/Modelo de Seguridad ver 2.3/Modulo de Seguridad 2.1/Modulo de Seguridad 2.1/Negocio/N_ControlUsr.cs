@@ -44,6 +44,7 @@ namespace Modulo_de_Seguridad_2._1.Negocio
             }
             catch 
             {
+                Application.Exit();
                 MessageBox.Show("Error al cerrar la aplicación");
             }
         }

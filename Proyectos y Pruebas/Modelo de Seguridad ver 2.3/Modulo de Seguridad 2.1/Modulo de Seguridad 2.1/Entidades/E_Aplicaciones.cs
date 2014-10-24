@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Modulo_de_Seguridad_2._1.Entidades
 {
-    internal class E_Aplicaciones
+    public class E_Aplicaciones
     {
         private Dictionary<string,int> dicPrivilegiosAplicacion = new Dictionary<string,int>();
         private int iCodigoAplicacion;
