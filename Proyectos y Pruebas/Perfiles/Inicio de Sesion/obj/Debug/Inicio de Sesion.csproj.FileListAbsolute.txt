@@ -107,3 +107,25 @@ C:\Users\Jessica\Desktop\Inicio de Sesion\Inicio de Sesion\obj\Debug\Inicio_de_S
 C:\Users\Jessica\Desktop\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
 C:\Users\Jessica\Desktop\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
 C:\Users\Jessica\Desktop\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Inicio de Sesion.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Conexion.dll
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Datos_Sesion.dll
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Negocio_Sesion.dll
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\WebCam_Capture.dll
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\MySql.Data.dll
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\ODBCconnector.dll
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Conexion.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Datos_Sesion.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Negocio_Sesion.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\Navegador.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\bin\Debug\ODBCconnector.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.csprojResolveAssemblyReference.cache
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfPerfil.resources
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.Properties.Resources.resources
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfPerfilAplicacion.resources
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfPerfilUsuario.resources
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.csproj.GenerateResource.Cache
