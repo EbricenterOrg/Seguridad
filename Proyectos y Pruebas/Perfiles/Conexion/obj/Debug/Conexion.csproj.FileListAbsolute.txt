@@ -1,0 +1,34 @@
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Conexion\bin\Debug\Conexion.pdb
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Conexion\bin\Debug\MySql.Data.dll
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Conexion\obj\Debug\Conexion.dll
+C:\Users\miniKiraPortatil\Desktop\Inicio de Sesion\Conexion\obj\Debug\Conexion.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll.config
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Conexion\bin\Debug\Conexion.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Conexion\bin\Debug\MySql.Data.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Conexion\obj\Debug\Conexion.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Inicio de Sesion\Conexion\obj\Debug\Conexion.pdb
+E:\Diseño de Sistemas\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll.config
+E:\Diseño de Sistemas\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Conexion\bin\Debug\Conexion.pdb
+E:\Diseño de Sistemas\Inicio de Sesion\Conexion\bin\Debug\MySql.Data.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+E:\Diseño de Sistemas\Inicio de Sesion\Conexion\obj\Debug\Conexion.dll
+E:\Diseño de Sistemas\Inicio de Sesion\Conexion\obj\Debug\Conexion.pdb
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll.config
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Conexion\bin\Debug\Conexion.pdb
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Conexion\bin\Debug\MySql.Data.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Conexion\obj\Debug\Conexion.dll
+C:\Users\OWNER\Desktop\Diseño Sistemas - Seguridad\Inicio de Sesion\Conexion\obj\Debug\Conexion.pdb
+C:\Users\Jessica\Desktop\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll.config
+C:\Users\Jessica\Desktop\Inicio de Sesion\Conexion\bin\Debug\Conexion.dll
+C:\Users\Jessica\Desktop\Inicio de Sesion\Conexion\bin\Debug\Conexion.pdb
+C:\Users\Jessica\Desktop\Inicio de Sesion\Conexion\bin\Debug\MySql.Data.dll
+C:\Users\Jessica\Desktop\Inicio de Sesion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Desktop\Inicio de Sesion\Conexion\obj\Debug\Conexion.dll
+C:\Users\Jessica\Desktop\Inicio de Sesion\Conexion\obj\Debug\Conexion.pdb
