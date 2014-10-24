@@ -151,3 +151,6 @@ C:\Users\OWNER\Desktop\Usuarios\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.Prop
 C:\Users\OWNER\Desktop\Usuarios\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfPerfilAplicacion.resources
 C:\Users\OWNER\Desktop\Usuarios\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfPreguntaUsuario.resources
 C:\Users\OWNER\Desktop\Usuarios\Inicio de Sesion\obj\Debug\Inicio de Sesion.csproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\Seguridad\Proyectos y Pruebas\Usuarios\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
+C:\Users\Jessica\Desktop\Seguridad\Proyectos y Pruebas\Usuarios\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
+C:\Users\Jessica\Desktop\Seguridad\Proyectos y Pruebas\Usuarios\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb

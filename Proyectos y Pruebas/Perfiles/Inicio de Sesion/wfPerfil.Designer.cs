@@ -120,9 +120,9 @@
             // txtCodperfil
             // 
             this.txtCodperfil.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCodperfil.Location = new System.Drawing.Point(393, 121);
+            this.txtCodperfil.Location = new System.Drawing.Point(388, 123);
             this.txtCodperfil.Name = "txtCodperfil";
-            this.txtCodperfil.Size = new System.Drawing.Size(122, 20);
+            this.txtCodperfil.Size = new System.Drawing.Size(125, 20);
             this.txtCodperfil.TabIndex = 12;
             this.txtCodperfil.Tag = "cod_pfl";
             this.txtCodperfil.TextChanged += new System.EventHandler(this.txtCodperfil_TextChanged);
@@ -201,7 +201,7 @@
             this.navegador1.Location = new System.Drawing.Point(101, 46);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
-            this.navegador1.sNombreTabla = "tabm_SGperfil";
+            this.navegador1.sNombreTabla = "tabm_sgperfil";
             this.navegador1.TabIndex = 1;
             this.navegador1.btnGuardar_AfterClick += new System.EventHandler(this.navegador1_btnGuardar_AfterClick);
             this.navegador1.btnBuscar_AfterClick += new System.EventHandler(this.textBox9_TextChanged);

@@ -53,7 +53,7 @@
             this.navegador1.Location = new System.Drawing.Point(28, 36);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
-            this.navegador1.sNombreTabla = "tabt_SGperfilusuario";
+            this.navegador1.sNombreTabla = "tabt_sgperfilusuario";
             this.navegador1.TabIndex = 0;
             // 
             // lblPerfilUser
