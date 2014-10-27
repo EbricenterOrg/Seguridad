@@ -38,5 +38,22 @@ namespace Inicio_de_Sesion
         {
 
         }
+
+        private void btnElegirPerfil_Click(object sender, EventArgs e)
+        {
+            wfPerfil ElegirPerfil = new wfPerfil();
+            ElegirPerfil.Show();
+            
+        }
+
+        private void cboEstado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtEstado.Text = cboEstado.Text;
+        }
+
+        private void txtEstado_TextChanged(object sender, EventArgs e)
+        {
+            cboEstado.Text = txtEstado.Text;
+        }
     }
 }

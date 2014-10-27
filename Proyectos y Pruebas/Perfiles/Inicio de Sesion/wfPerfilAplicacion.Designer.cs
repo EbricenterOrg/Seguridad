@@ -51,6 +51,8 @@
             this.lblPerfilApp = new System.Windows.Forms.Label();
             this.lblCodApp = new System.Windows.Forms.Label();
             this.txtCodApp = new System.Windows.Forms.TextBox();
+            this.btnElegirPerfil = new System.Windows.Forms.Button();
+            this.cboEstado = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // navegador1
@@ -122,11 +124,12 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(338, 328);
+            this.txtEstado.Location = new System.Drawing.Point(453, 326);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(100, 20);
             this.txtEstado.TabIndex = 8;
             this.txtEstado.Tag = "estado_papp";
+            this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
             // 
             // lblNombre
             // 
@@ -247,11 +250,33 @@
             this.txtCodApp.TabIndex = 21;
             this.txtCodApp.Tag = "cod_app";
             // 
+            // btnElegirPerfil
+            // 
+            this.btnElegirPerfil.Location = new System.Drawing.Point(478, 153);
+            this.btnElegirPerfil.Name = "btnElegirPerfil";
+            this.btnElegirPerfil.Size = new System.Drawing.Size(75, 23);
+            this.btnElegirPerfil.TabIndex = 22;
+            this.btnElegirPerfil.Text = "Elegir perfil";
+            this.btnElegirPerfil.UseVisualStyleBackColor = true;
+            this.btnElegirPerfil.Click += new System.EventHandler(this.btnElegirPerfil_Click);
+            // 
+            // cboEstado
+            // 
+            this.cboEstado.FormattingEnabled = true;
+            this.cboEstado.Location = new System.Drawing.Point(338, 329);
+            this.cboEstado.Name = "cboEstado";
+            this.cboEstado.Size = new System.Drawing.Size(100, 21);
+            this.cboEstado.TabIndex = 23;
+            this.cboEstado.Tag = "estado_papp";
+            this.cboEstado.SelectedIndexChanged += new System.EventHandler(this.cboEstado_SelectedIndexChanged);
+            // 
             // wfPerfilAplicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 365);
+            this.Controls.Add(this.cboEstado);
+            this.Controls.Add(this.btnElegirPerfil);
             this.Controls.Add(this.txtCodApp);
             this.Controls.Add(this.lblCodApp);
             this.Controls.Add(this.lblPerfilApp);
@@ -306,5 +331,7 @@
         private System.Windows.Forms.Label lblPerfilApp;
         private System.Windows.Forms.Label lblCodApp;
         private System.Windows.Forms.TextBox txtCodApp;
+        private System.Windows.Forms.Button btnElegirPerfil;
+        private System.Windows.Forms.ComboBox cboEstado;
     }
 }

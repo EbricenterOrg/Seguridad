@@ -44,12 +44,14 @@
             this.lblNombreperfil = new System.Windows.Forms.Label();
             this.navegador1 = new Navegador.Navegador();
             this.lblCodperfil = new System.Windows.Forms.Label();
+            this.cboEstadoPerf = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.Controls.Add(this.cboEstadoPerf);
             this.panel1.Controls.Add(this.txtEstadoPerfil);
             this.panel1.Controls.Add(this.txtCodpfl1);
             this.panel1.Controls.Add(this.txtFechModifPerfil);
@@ -72,11 +74,12 @@
             // 
             // txtEstadoPerfil
             // 
-            this.txtEstadoPerfil.Location = new System.Drawing.Point(393, 321);
+            this.txtEstadoPerfil.Location = new System.Drawing.Point(536, 318);
             this.txtEstadoPerfil.Name = "txtEstadoPerfil";
-            this.txtEstadoPerfil.Size = new System.Drawing.Size(121, 20);
+            this.txtEstadoPerfil.Size = new System.Drawing.Size(79, 20);
             this.txtEstadoPerfil.TabIndex = 17;
             this.txtEstadoPerfil.Tag = "estado_pfl";
+            this.txtEstadoPerfil.Visible = false;
             this.txtEstadoPerfil.TextChanged += new System.EventHandler(this.txt14_TextChanged);
             // 
             // txtCodpfl1
@@ -218,6 +221,16 @@
             this.lblCodperfil.TabIndex = 14;
             this.lblCodperfil.Text = "Codigo perfil ";
             // 
+            // cboEstadoPerf
+            // 
+            this.cboEstadoPerf.FormattingEnabled = true;
+            this.cboEstadoPerf.Location = new System.Drawing.Point(394, 317);
+            this.cboEstadoPerf.Name = "cboEstadoPerf";
+            this.cboEstadoPerf.Size = new System.Drawing.Size(121, 21);
+            this.cboEstadoPerf.TabIndex = 53;
+            this.cboEstadoPerf.Tag = "estado_pfl";
+            this.cboEstadoPerf.SelectedIndexChanged += new System.EventHandler(this.cboEstadoPerf_SelectedIndexChanged);
+            // 
             // wfPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -252,6 +265,7 @@
         private System.Windows.Forms.TextBox txtCodpfl1;
         private System.Windows.Forms.TextBox txtFechModifPerfil;
         private System.Windows.Forms.TextBox txtFechCreacionPerfil;
+        private System.Windows.Forms.ComboBox cboEstadoPerf;
 
     }
 }

@@ -43,6 +43,9 @@
             this.txtCodPerUser = new System.Windows.Forms.TextBox();
             this.lblFechModif = new System.Windows.Forms.Label();
             this.txtFechModif = new System.Windows.Forms.TextBox();
+            this.cboEstadoUsr = new System.Windows.Forms.ComboBox();
+            this.btnUsuario = new System.Windows.Forms.Button();
+            this.btnElegirPerfil = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // navegador1
@@ -132,11 +135,12 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(325, 262);
+            this.txtEstado.Location = new System.Drawing.Point(445, 262);
             this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(100, 20);
+            this.txtEstado.Size = new System.Drawing.Size(87, 20);
             this.txtEstado.TabIndex = 29;
             this.txtEstado.Tag = "estado_pflusr";
+            this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
             // 
             // txtFechCreado
             // 
@@ -172,11 +176,44 @@
             this.txtFechModif.TabIndex = 43;
             this.txtFechModif.Tag = "fechmodf_pflusr";
             // 
+            // cboEstadoUsr
+            // 
+            this.cboEstadoUsr.FormattingEnabled = true;
+            this.cboEstadoUsr.Location = new System.Drawing.Point(325, 261);
+            this.cboEstadoUsr.Name = "cboEstadoUsr";
+            this.cboEstadoUsr.Size = new System.Drawing.Size(100, 21);
+            this.cboEstadoUsr.TabIndex = 44;
+            this.cboEstadoUsr.Tag = "estado_pflusr";
+            this.cboEstadoUsr.SelectedIndexChanged += new System.EventHandler(this.cboEstadoUsr_SelectedIndexChanged);
+            // 
+            // btnUsuario
+            // 
+            this.btnUsuario.Location = new System.Drawing.Point(445, 150);
+            this.btnUsuario.Name = "btnUsuario";
+            this.btnUsuario.Size = new System.Drawing.Size(75, 23);
+            this.btnUsuario.TabIndex = 45;
+            this.btnUsuario.Text = "Usuario";
+            this.btnUsuario.UseVisualStyleBackColor = true;
+            this.btnUsuario.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnElegirPerfil
+            // 
+            this.btnElegirPerfil.Location = new System.Drawing.Point(445, 176);
+            this.btnElegirPerfil.Name = "btnElegirPerfil";
+            this.btnElegirPerfil.Size = new System.Drawing.Size(75, 23);
+            this.btnElegirPerfil.TabIndex = 46;
+            this.btnElegirPerfil.Text = "Elegir Perfil";
+            this.btnElegirPerfil.UseVisualStyleBackColor = true;
+            this.btnElegirPerfil.Click += new System.EventHandler(this.btnElegirPerfil_Click);
+            // 
             // wfPerfilUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(640, 359);
+            this.Controls.Add(this.btnElegirPerfil);
+            this.Controls.Add(this.btnUsuario);
+            this.Controls.Add(this.cboEstadoUsr);
             this.Controls.Add(this.txtFechModif);
             this.Controls.Add(this.lblFechModif);
             this.Controls.Add(this.txtCodPer);
@@ -215,5 +252,8 @@
         private System.Windows.Forms.TextBox txtCodPerUser;
         private System.Windows.Forms.Label lblFechModif;
         private System.Windows.Forms.TextBox txtFechModif;
+        private System.Windows.Forms.ComboBox cboEstadoUsr;
+        private System.Windows.Forms.Button btnUsuario;
+        private System.Windows.Forms.Button btnElegirPerfil;
     }
 }

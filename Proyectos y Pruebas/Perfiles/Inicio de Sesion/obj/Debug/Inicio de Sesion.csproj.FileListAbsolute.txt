@@ -129,3 +129,6 @@ C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de
 C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfPerfilAplicacion.resources
 C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio_de_Sesion.wfPerfilUsuario.resources
 C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.csproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\Perfiles\Inicio de Sesion\bin\Debug\Inicio de Sesion.exe.config
+C:\Users\Jessica\Desktop\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.exe
+C:\Users\Jessica\Desktop\Perfiles\Inicio de Sesion\obj\Debug\Inicio de Sesion.pdb

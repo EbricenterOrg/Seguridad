@@ -143,7 +143,12 @@ namespace Inicio_de_Sesion
 
         private void txt14_TextChanged(object sender, EventArgs e)
         {
-          
+            if (txtEstadoPerfil.Text == "1")
+            {
+                cboEstadoPerf.SelectedIndex = 0;
+            }
+            else { cboEstadoPerf.SelectedIndex = 1;
+            }
         }
 
         private void txtCodperfil_TextChanged(object sender, EventArgs e)
@@ -165,6 +170,16 @@ namespace Inicio_de_Sesion
                          case 1: txtEstadoPerfil.Text = "1"; break;
                         default: txtEstadoPerfil.Text = String.Empty;
                                          }*/
+        }
+
+        private void cboEstadoPerf_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cboEstadoPerf.SelectedIndex == 0)
+            {
+                txtEstadoPerfil.Text = "1";
+            }
+            else { txtEstadoPerfil.Text = "0";
+            }
         }
 
       
