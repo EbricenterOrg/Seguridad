@@ -17,7 +17,6 @@ namespace Modulo_de_Seguridad_2._1.Entidades
         private static int iCodUsuario;
         private static int iCodAplicacionesPersonales;
 
-
         public int CodigoEmpleado
         {
             get { return iCodEmpleado; }

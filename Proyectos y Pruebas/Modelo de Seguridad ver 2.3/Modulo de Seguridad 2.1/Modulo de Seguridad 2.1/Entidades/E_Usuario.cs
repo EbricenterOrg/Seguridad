@@ -10,14 +10,14 @@ namespace Modulo_de_Seguridad_2._1.Entidades
 {
     internal class E_Usuario
     {
-        private Bitmap bmpImagen;
-        private String sNombreUsuario;
-        private String sPerfil;
-        private String sPrivilegio;
-        private String sCuenta;
+        private static Bitmap bmpImagen;
+        private static String sNombreUsuario;
+        private static String sPerfil;
+        private static String sPrivilegio;
+        private static String sCuenta;
         private static Form fFormPrincipal;
         private static String sFormPrincipal;
-        private byte[] byImagen;
+        private static byte[] byImagen;
 
         public Form FormularioPrincipal { get { return fFormPrincipal; } set { fFormPrincipal = value; } } 
         public Bitmap ImagenUsuario { get { return bmpImagen; } set { bmpImagen = value; } }

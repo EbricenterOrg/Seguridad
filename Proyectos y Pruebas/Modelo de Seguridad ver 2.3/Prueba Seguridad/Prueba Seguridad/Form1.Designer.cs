@@ -45,18 +45,20 @@
             // controlUsuario1
             // 
             this.controlUsuario1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.controlUsuario1.Location = new System.Drawing.Point(2, -2);
+            this.controlUsuario1.bIniciarControles = true;
+            this.controlUsuario1.Location = new System.Drawing.Point(3, -1);
             this.controlUsuario1.Name = "controlUsuario1";
-            this.controlUsuario1.Size = new System.Drawing.Size(300, 83);
-            this.controlUsuario1.TabIndex = 0;
+            this.controlUsuario1.Size = new System.Drawing.Size(333, 83);
+            this.controlUsuario1.TabIndex = 2;
+            this.controlUsuario1.Load += new System.EventHandler(this.controlUsuario1_Load_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(683, 315);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.controlUsuario1);
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -66,8 +68,8 @@
 
         #endregion
 
-        private Modulo_de_Seguridad_2._1.Presentacion.ControlUsuario controlUsuario1;
         private System.Windows.Forms.Button button1;
+        private Modulo_de_Seguridad_2._1.Presentacion.ControlUsuario controlUsuario1;
 
     }
 }

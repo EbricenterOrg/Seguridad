@@ -20,8 +20,7 @@ namespace Modulo_de_Seguridad_2._1
     {
         private ArrayList alResultados = new ArrayList();
         private E_Usuario E_Usuario = new E_Usuario();
- 
-  
+
         private void vCargarMenuPrincipal(bool bCargaForm, String sForm)
         {
             if (bCargaForm == true)
@@ -57,27 +56,26 @@ namespace Modulo_de_Seguridad_2._1
                             {
                                 if (bBuscarSesionesAbiertas() == true)
                                 {
-                                    if (bMarcarSesionActiva() == true)
+                                    if (bObtenerPerfilUsuario() == true)
                                     {
-                                        if (bObtenerPerfilUsuario() == true)
+                                        if (bObtenerPerfil() == true)
                                         {
-                                            if (bObtenerPerfil() == true)
-                                            {
-                                                wfInicioSesion.ActiveForm.Hide();
-                                                vCargarMenuPrincipal(bBuscarAplicaciones(), sFormPrincipal);
-                                            }
+                                            wfInicioSesion.ActiveForm.Hide();
+                                            vCargarMenuPrincipal(bBuscarAplicaciones(), sFormPrincipal);
                                         }
-                                    }
-
+                                    }   
                                 }
                             }
                         }
                     }
-                } catch{}
+                } catch
+                {
+                    MessageBox.Show("Error al Inicio de Sesion");
+                }
             }
             else
             {
-                MessageBox.Show("Usuario/Password Vacios");
+                MessageBox.Show("Usuario/Password Vacios","Hotel San Carlos");
             }
         }
       

@@ -34,8 +34,9 @@
   <ItemGroup>
     <Reference Include="Modulo de Seguridad 2.1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\Modulo de Seguridad 2.1.dll</HintPath>
+      <HintPath>G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\Modulo de Seguridad 2.1.dll</HintPath>
     </Reference>
+    <Reference Include="ODBCconnector, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

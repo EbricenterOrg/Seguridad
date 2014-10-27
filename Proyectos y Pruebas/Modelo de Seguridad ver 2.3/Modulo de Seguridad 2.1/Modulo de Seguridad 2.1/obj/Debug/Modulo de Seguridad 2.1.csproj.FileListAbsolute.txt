@@ -24,3 +24,20 @@ C:\Users\kiraPC\Desktop\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debu
 C:\Users\kiraPC\Desktop\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.csproj.GenerateResource.Cache
 C:\Users\kiraPC\Desktop\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.dll
 C:\Users\kiraPC\Desktop\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.pdb
+C:\Users\kiraPC\Desktop\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.csprojResolveAssemblyReference.cache
+I:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\Modulo de Seguridad 2.1.dll
+I:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\Modulo de Seguridad 2.1.pdb
+I:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Presentacion.ControlUsuario.resources
+I:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Presentacion.wfInicioSesion.resources
+I:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Properties.Resources.resources
+I:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.csproj.GenerateResource.Cache
+I:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.dll
+I:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.pdb
+G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\Modulo de Seguridad 2.1.dll
+G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\Modulo de Seguridad 2.1.pdb
+G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Presentacion.ControlUsuario.resources
+G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Presentacion.wfInicioSesion.resources
+G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Properties.Resources.resources
+G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.csproj.GenerateResource.Cache
+G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.dll
+G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.pdb

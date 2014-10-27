@@ -25,27 +25,39 @@ namespace Modulo_de_Seguridad_2._1.Datos
 
         public bool bBuscarUsuario(String sUser, String sPass)
         {
-            sQuery = "SELECT cod_usr FROM tabm_sgusuario WHERE cuenta_usr = '" + sUser + "' AND pass_usr = '" + sPass + "'";
+            sQuery = "SELECT cod_usr, cuenta_usr, cod_emp FROM tabm_sgusuario WHERE cuenta_usr = '" + sUser + "' AND pass_usr = '" + sPass + "'";
             alResultados = csFunciones.alConsultar(sQuery);
             if (alResultados.Count != 0)
             {
-                foreach (ArrayList Datos in alResultados)
+                sQuery = "SELECT cod_usr FROM tabm_sgusuario WHERE estado_usr = 1";
+                ArrayList alResp = csFunciones.alConsultar(sQuery);
+                if(alResp.Count != 0)
                 {
-                    ePerfil.CodigoUsuario = Convert.ToInt32(Datos[0]);
-                    eDatosPublicos.iCodigoUsuario = Convert.ToInt32(Datos[0]);
+                    foreach (ArrayList Datos in alResultados)
+                    {
+                        ePerfil.CodigoUsuario = Convert.ToInt32(Datos[0]);
+                        eDatosPublicos.iCodigoUsuario = Convert.ToInt32(Datos[0]);
+                        eUsuario.Cuenta = Datos[1].ToString();
+                        ePerfil.CodigoEmpleado = Convert.ToInt32(Datos[2]);
+                    }
+                    return true;
                 }
-                return true;
+                else
+                {
+                    MessageBox.Show("La cuenta no esta actualmente activa, comunisique con su administrador", "Hotel San Carlos");
+                    return false; 
+                }
             }
             else 
             {
-                MessageBox.Show("ERROR","Usuario/Contraseña Incorrectos");
+                MessageBox.Show("Usuario/Contraseña Incorrectos", "Hotel San Carlos");
                 return false;
             }    
         }
 
         public bool bComprobarFuente() 
         {
-            sQuery = "SELECT cod_usr FROM tabm_sgusuario WHERE cod_priv = 1 AND ipdir_usr = '%.%.%.%' ";
+            sQuery = "SELECT cod_usr FROM tabm_sgusuario WHERE  ipdir_usr = '%.%.%.%' ";
             alResultados = csFunciones.alConsultar(sQuery);
             if (alResultados.Count == 0)
             {
@@ -65,7 +77,7 @@ namespace Modulo_de_Seguridad_2._1.Datos
                         bBandera = false;
                     }     
                 }
-                if (bBandera == false) { MessageBox.Show("La dirección del equipo no corresponde con la cuenta"); }
+                if (bBandera == false) { MessageBox.Show("La dirección del equipo no corresponde con la cuenta", "Hotel San Carlos"); }
                 return bBandera;
             }
             else 
@@ -88,7 +100,7 @@ namespace Modulo_de_Seguridad_2._1.Datos
             }
             else
             {
-               MessageBox.Show("El Privilegio no esta disponible en este momento");
+                MessageBox.Show("El Privilegio no esta disponible en este momento", "Hotel San Carlos");
                return false;
             }
         }
@@ -103,8 +115,22 @@ namespace Modulo_de_Seguridad_2._1.Datos
             }
             else 
             {
-                MessageBox.Show("Esta cuenta tiene actualmente una sesion abierta");
-                return false;
+                MessageBox.Show("Esta cuenta tiene actualmente una sesion abierta", "Hotel San Carlos");
+                return bContinuarSesion();
+            }
+        }
+        
+        public bool bContinuarSesion() 
+        {
+            if (MessageBox.Show("Deseas continuar la sesión anterior?"+
+                Environment.NewLine+"Si continua se cargaran los datos de la sesion"+
+                Environment.NewLine+"Si contesta No, se creara una nueva sesion", "Hotel San Carlos",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                return true;
+            {
+                sQuery = "UPDATE tabt_sgsesion SET sesact_ses = 0, fechfin_ses = NOW() WHERE cod_ses = " + ePerfil.CodigoSesion;
+                csFunciones.vModificar(sQuery);
+                return bCrearNuevaSesion();
             }
         }
 
@@ -112,45 +138,32 @@ namespace Modulo_de_Seguridad_2._1.Datos
         {
             try
             {
-                sQuery = "SELECT MAX(cod_ses) FROM tabt_sgsesion WHERE cod_usr = " + ePerfil.CodigoUsuario;
+                sQuery = "SELECT cod_ses FROM tabt_sgsesion WHERE cod_usr = " + ePerfil.CodigoUsuario;
                 alResultados = csFunciones.alConsultar(sQuery);
-                if (alResultados.Count == 0)
+                if (alResultados.Count != 0)
                 {
-                    sQuery = "INSERT INTO tabt_sgsesion (cod_usr,cod_ses,fechinic_ses,fechfin_ses,sesact_ses) VALUES (" + ePerfil.CodigoUsuario + ",1,NOW(),NOW(),0)";      
-                    csFunciones.vInsertar(sQuery);
-                }
-                else
-                {
+                    sQuery = "SELECT MAX(cod_ses) FROM tabt_sgsesion WHERE cod_usr = " + ePerfil.CodigoUsuario;
+                    alResultados = csFunciones.alConsultar(sQuery);
                     foreach (ArrayList Dato in alResultados)
                     {
                         ePerfil.CodigoSesion = Convert.ToInt32(Dato[0]) + 1;
-                        sQuery = "INSERT INTO tabt_sgsesion (cod_usr,cod_ses,fechinic_ses,fechfin_ses,sesact_ses) VALUES (" + ePerfil.CodigoUsuario + "," + ePerfil.CodigoSesion + ",NOW(),'0000-00-00',0)";
+                        sQuery = "INSERT INTO tabt_sgsesion (cod_usr,cod_ses,fechinic_ses,fechfin_ses,sesact_ses) VALUES (" + ePerfil.CodigoUsuario + "," + ePerfil.CodigoSesion + ",NOW(),'0000-00-00',1)";
                         csFunciones.vInsertar(sQuery);
                     }
                 }
+                else
+                {
+                    ePerfil.CodigoSesion = 1;
+                    sQuery = "INSERT INTO tabt_sgsesion (cod_usr,cod_ses,fechinic_ses,fechfin_ses,sesact_ses) VALUES (" + ePerfil.CodigoUsuario + ",1,NOW(),'0000-00-00',1)";
+                    csFunciones.vInsertar(sQuery);
+                }    
                 return true;
             }
-            catch
+            catch(Exception ex)
             {
-                MessageBox.Show("Error al crear la sesion");
+                MessageBox.Show("Error al crear la sesion " + ex.ToString(), "Hotel San Carlos");
                 return false;
             }
-        }
-
-
-        public bool bMarcarSesionActiva()
-        {
-            try
-            {
-                sQuery = "UPDATE tabt_sgsesion SET sesact_ses = 1 WHERE cod_ses = " + ePerfil.CodigoSesion;
-                csFunciones.vInsertar(sQuery);
-                return true;
-            }
-            catch
-            {
-                MessageBox.Show("No se puede obtener la sesion, Intentelo más tarde...");
-                return false;
-            }    
         }
 
         public bool bObtenerPerfilUsuario()
@@ -167,7 +180,7 @@ namespace Modulo_de_Seguridad_2._1.Datos
             }
             else
             {
-                MessageBox.Show("El Perfil de esta cuenta no esta disponible");
+                MessageBox.Show("El Perfil de esta cuenta no esta disponible", "Hotel San Carlos");
                 return false;
             }
         }
@@ -186,7 +199,7 @@ namespace Modulo_de_Seguridad_2._1.Datos
             }
             else 
             {
-                MessageBox.Show("El Perfil de esta cuenta no esta disponible");
+                MessageBox.Show("El Perfil de esta cuenta no esta disponible", "Hotel San Carlos");
                 return false;
             }
         }
@@ -210,12 +223,35 @@ namespace Modulo_de_Seguridad_2._1.Datos
                     alApps.Add(App);  
                 }
                 eDatosPublicos.alAplicaciones = alApps;
+                vBuscarAplicacionesPersonales();
                 return true;
-            }
+                }
             else 
             {
-                MessageBox.Show("Error","Error al obtener las aplicaciones");
+                MessageBox.Show("Error al obtener las aplicaciones","Hotel San Carlos");
                 return false;
+            }
+        }
+        
+        private void vBuscarAplicacionesPersonales()
+        {
+            sQuery = "SELECT T2.cod_app, T2.nomapp_app,T1.insert_aappp,T1.select_aappp,T1.delete_aappp,T1.update_aappp,T1.imprimir_aappp FROM tabt_sgasignapppersonal T1 INNER JOIN tabm_sgaplicacion T2 ON T1.cod_app = T2.cod_app WHERE T1.cod_usr = " + ePerfil.CodigoUsuario;
+            alResultados = csFunciones.alConsultar(sQuery);
+            if (alResultados.Count != 0)
+            {
+                foreach (ArrayList Datos in alResultados)
+                {
+                    E_Aplicaciones App = new E_Aplicaciones();
+                    App.CodigoAplicacion = Convert.ToInt32(Datos[1]);
+                    App.NombreAplicacion = Datos[0].ToString();
+                    App.PrivilegiosAplicacion.Add("SLC", Convert.ToInt32(Datos[2]));
+                    App.PrivilegiosAplicacion.Add("INS", Convert.ToInt32(Datos[3]));
+                    App.PrivilegiosAplicacion.Add("DEL", Convert.ToInt32(Datos[4]));
+                    App.PrivilegiosAplicacion.Add("UPD", Convert.ToInt32(Datos[5]));
+                    App.PrivilegiosAplicacion.Add("IMP", Convert.ToInt32(Datos[6]));
+                    alApps.Add(App);  
+                }
+                eDatosPublicos.alAplicacionesPersonales = alApps;            
             }
         }
     }

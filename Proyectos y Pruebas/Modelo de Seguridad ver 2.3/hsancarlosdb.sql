@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 27-09-2014 a las 19:03:42
+-- Tiempo de generación: 28-09-2014 a las 13:34:10
 -- Versión del servidor: 5.5.38
 -- Versión de PHP: 5.3.10-1ubuntu3.13
 
@@ -1047,6 +1047,11 @@ CREATE TABLE IF NOT EXISTS `tabt_sgasignapppersonal` (
   `cod_app` decimal(4,0) NOT NULL,
   `fechcreado_aappp` date NOT NULL,
   `fechmodif_aappp` date NOT NULL,
+  `insert_aappp` tinyint(1) NOT NULL,
+  `select_aappp` tinyint(1) NOT NULL,
+  `update_aappp` tinyint(1) NOT NULL,
+  `delete_aappp` tinyint(1) NOT NULL,
+  `imprimir_aappp` tinyint(1) NOT NULL,
   PRIMARY KEY (`cod_aappp`),
   KEY `tabm_aplicacion_tabt_asignapppersonal_fk` (`cod_app`),
   KEY `tabm_SGusuario_tabt_SGasignapppersonal_fk` (`cod_usr`)
@@ -1132,17 +1137,15 @@ CREATE TABLE IF NOT EXISTS `tabt_sgsesion` (
 --
 
 INSERT INTO `tabt_sgsesion` (`cod_ses`, `cod_usr`, `sesact_ses`, `fechinic_ses`, `fechfin_ses`) VALUES
-(1, 1, 0, '2014-09-27 00:00:00', '0000-00-00 00:00:00'),
-(2, 1, 0, '2014-10-01 00:00:00', '2014-10-01 00:00:00'),
-(3, 1, 0, '2014-10-09 00:00:00', '2014-09-27 00:00:00'),
-(4, 1, 0, '2014-09-27 00:00:00', '0000-00-00 00:00:00'),
-(5, 1, 0, '2014-09-27 00:00:00', '2014-09-27 00:00:00'),
-(6, 1, 0, '2014-09-27 00:00:00', '2014-09-27 00:00:00'),
-(7, 1, 0, '2014-09-27 17:16:02', '2014-09-27 17:16:12'),
-(8, 1, 0, '2014-09-27 17:24:12', '2014-09-27 17:24:31'),
-(9, 1, 0, '2014-09-27 17:49:00', '2014-09-27 17:49:10'),
-(10, 1, 0, '2014-09-27 17:52:46', '2014-09-27 17:53:49'),
-(11, 1, 0, '2014-09-27 17:55:27', '2014-09-27 17:57:27');
+(1, 1, 0, '2014-09-28 08:40:03', '2014-09-28 08:40:23'),
+(2, 1, 0, '2014-09-28 08:40:35', '2014-09-28 08:41:02'),
+(3, 1, 0, '2014-09-28 10:16:51', '2014-09-28 10:16:55'),
+(4, 1, 0, '2014-09-28 10:39:49', '2014-09-28 10:55:19'),
+(5, 1, 0, '2014-09-28 11:21:51', '2014-09-28 11:22:46'),
+(6, 1, 0, '2014-09-28 11:23:15', '2014-09-28 11:24:03'),
+(7, 1, 0, '2014-09-28 11:25:08', '2014-09-28 11:25:47'),
+(8, 1, 0, '2014-09-28 11:25:48', '2014-09-28 11:26:07'),
+(9, 1, 0, '2014-09-28 11:26:25', '2014-09-28 11:26:33');
 
 --
 -- Restricciones para tablas volcadas
@@ -1395,8 +1398,8 @@ ALTER TABLE `tabt_nndnomina`
 -- Filtros para la tabla `tabt_sgasignapppersonal`
 --
 ALTER TABLE `tabt_sgasignapppersonal`
-  ADD CONSTRAINT `tabm_SGusuario_tabt_SGasignapppersonal_fk` FOREIGN KEY (`cod_usr`) REFERENCES `tabm_sgusuario` (`cod_usr`),
-  ADD CONSTRAINT `tabm_aplicacion_tabt_asignapppersonal_fk` FOREIGN KEY (`cod_app`) REFERENCES `tabm_sgaplicacion` (`cod_app`);
+  ADD CONSTRAINT `tabm_aplicacion_tabt_asignapppersonal_fk` FOREIGN KEY (`cod_app`) REFERENCES `tabm_sgaplicacion` (`cod_app`),
+  ADD CONSTRAINT `tabm_SGusuario_tabt_SGasignapppersonal_fk` FOREIGN KEY (`cod_usr`) REFERENCES `tabm_sgusuario` (`cod_usr`);
 
 --
 -- Filtros para la tabla `tabt_sgperfilapp`

@@ -7,21 +7,24 @@ using Modulo_de_Seguridad_2._1.Entidades;
 using ODBCconnector;
 using System.Windows.Forms;
 using System.IO;
+using System.Collections;
+using System.Data.Odbc;
 
 namespace Modulo_de_Seguridad_2._1.Datos
 {
-    internal class D_DatoControlUsr:  E_Perfil
+    internal class D_DatoControlUsr:  D_Conexion
     {
         
         private E_Usuario eUsuario = new E_Usuario();
+        private E_Perfil ePerfil = new E_Perfil();
         private String sQuery = String.Empty;
+        private ArrayList alResultados = new ArrayList();
 
         public bool bCerrarSesion()
         {
             try 
             {
-                MessageBox.Show(CodigoSesion.ToString());
-                sQuery = "UPDATE tabt_sgsesion SET sesact_ses = 0, fechfin_ses = NOW() WHERE cod_ses = " + CodigoSesion;
+                sQuery = "UPDATE tabt_sgsesion SET sesact_ses = 0, fechfin_ses = NOW() WHERE cod_ses = " + ePerfil.CodigoSesion;
                 csFunciones.vModificar(sQuery);
                 return true;
             }
@@ -32,9 +35,74 @@ namespace Modulo_de_Seguridad_2._1.Datos
             }
         }
 
-        /*public bool ObtenerCuenta()
+        public bool bObtenerNombre()
         {
-            sQuery = "SELE";
-        }*/
+            sQuery = "SELECT nom1_emp, nom2_emp, apell1_emp, apell2_emp FROM tabm_nnempleado WHERE cod_emp = " + ePerfil.CodigoEmpleado;
+            alResultados = csFunciones.alConsultar(sQuery);
+            if (alResultados.Count != 0)
+            {
+                foreach (ArrayList Datos in alResultados)
+                {
+                    eUsuario.NombreUsuario = Datos[0] + " " + Datos[1] + " " + Datos[2] + " " + Datos[3];
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }       
+        }
+
+        public void vObtenerPrivilegio()
+        {
+            switch (ePerfil.CodigoEmpleado)
+            {
+                case 1: eUsuario.Privilegio = "Administrador Global";  break;
+                case 2: eUsuario.Privilegio = "Administrador de Area";  break;
+                case 3: eUsuario.Privilegio = "Digitador"; ; break;
+                default: eUsuario.Privilegio = "(Sin Privilegio)"; break;
+            }
+        }
+
+        public bool bObtenerPerfil()
+        {
+            sQuery = "SELECT nom_pfl FROM tabm_sgperfil WHERE cod_pfll = " + ePerfil.CodigoPerfil;
+            alResultados = csFunciones.alConsultar(sQuery);
+            if (alResultados.Count != 0)
+            {
+                foreach (ArrayList Datos in alResultados)
+                {
+                    eUsuario.Perfil = Datos[0].ToString(); 
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }      
+        }
+
+        public bool bObtenerImagen()
+        {
+            sQuery = "SELECT foto_usr FROM tabm_sgusuario WHERE cod_usr = " + ePerfil.CodigoUsuario;
+            if (bAbrirConexion())
+            {
+                try
+                {
+                    OdbcCommand ocComando = new OdbcCommand(sQuery, Conexion);
+                    OdbcDataReader odReader = ocComando.ExecuteReader();
+                    while (odReader.Read())
+                    {
+                        eUsuario.ImagenBytes = (byte[])odReader[0];
+                    }
+                   
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al obtener una imagen"+ex,"Error");
+                }
+            }
+            return true;
+        }
     }
 }

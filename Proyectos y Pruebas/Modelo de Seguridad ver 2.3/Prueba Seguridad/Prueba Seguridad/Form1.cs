@@ -44,5 +44,15 @@ namespace Prueba_Seguridad
                 derechos = String.Empty;
             }
         }
+
+        private void controlUsuario1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void controlUsuario1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
