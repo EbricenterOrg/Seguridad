@@ -1,0 +1,13 @@
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\PruebaSeguridad 2.exe.config
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\PruebaSeguridad 2.exe
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\PruebaSeguridad 2.pdb
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\Modulo de Seguridad 2.1.dll
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\ODBCconnector.dll
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\Modulo de Seguridad 2.1.pdb
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\ODBCconnector.pdb
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.csprojResolveAssemblyReference.cache
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad_2.Form1.resources
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad_2.Properties.Resources.resources
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.csproj.GenerateResource.Cache
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.exe
+c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.pdb

@@ -59,6 +59,12 @@
     <Compile Include="Presentacion\ControlUsuario.Designer.cs">
       <DependentUpon>ControlUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\wfCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfCuenta.Designer.cs">
+      <DependentUpon>wfCuenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\wfInicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Presentacion\ControlUsuario.resx">
       <DependentUpon>ControlUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfCuenta.resx">
+      <DependentUpon>wfCuenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\wfInicioSesion.resx">
       <DependentUpon>wfInicioSesion.cs</DependentUpon>
@@ -122,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\GuardarSalir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\HotelSanCarlos.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

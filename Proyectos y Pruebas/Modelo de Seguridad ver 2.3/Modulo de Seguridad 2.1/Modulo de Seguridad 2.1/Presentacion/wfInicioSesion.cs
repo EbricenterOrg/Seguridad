@@ -7,23 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Modulo_de_Seguridad_2._1.Entidades;
 
 namespace Modulo_de_Seguridad_2._1.Presentacion
 {
     public partial class wfInicioSesion : Form
     {
         private N_InicioSesion N_Inicio = new N_InicioSesion();
-        private String sForm;
+        private E_Usuario eUser = new E_Usuario();
 
-        public wfInicioSesion(String FormularioPrincipal = null)
+
+        public wfInicioSesion(Form fMenuPrincipal = null)
         {
-            sForm = FormularioPrincipal;
+            if (fMenuPrincipal != null)
+            {
+                eUser.FormularioPrincipal = fMenuPrincipal;
+            }
             InitializeComponent();
         }
 
         private void btnSesion_Click(object sender, EventArgs e)
         {
-            N_Inicio.vValidarUsuario(txtUsuario.Text, txtPassword.Text, sForm);
+            N_Inicio.vValidarUsuario(txtUsuario.Text, txtPassword.Text);
         }
 
         private void btnCancelarSesion_Click(object sender, EventArgs e)

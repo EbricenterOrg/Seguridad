@@ -16,12 +16,7 @@ namespace Modulo_de_Seguridad_2._1.Presentacion
     {
         private N_ControlUsr nUser = new N_ControlUsr();
         private E_Usuario eUser = new E_Usuario();
-        private bool bAbrirControles = false;
-        public bool bIniciarControles
-        {
-            get { return bAbrirControles; }
-            set { bAbrirControles = value; }
-        }
+     
 
         public ControlUsuario()
         {
@@ -30,12 +25,12 @@ namespace Modulo_de_Seguridad_2._1.Presentacion
 
         private void TsbConexion_Click(object sender, EventArgs e)
         {
-            nUser.vRevisarConexion();
+           
         }
 
         private void tsmiCuenta_Click(object sender, EventArgs e)
         {
-            
+            new wfCuenta().Show();
         }
 
         private void tsmiSalir_Click(object sender, EventArgs e)
@@ -48,25 +43,23 @@ namespace Modulo_de_Seguridad_2._1.Presentacion
             nUser.vCerrarSesion();
         }
 
-        private void ControlUsuario_Load(object sender, EventArgs e)
+      public void vIniciarControles()
         {
-            vIniciarControles();
-        }
-
-        private void vIniciarControles()
-        {
-            if (bAbrirControles == true)
-            {
                 nUser.vIniciar();
                 lblNombreUsuario.Text = eUser.NombreUsuario;
                 lblPrivilegio.Text = eUser.Perfil + ", " + eUser.Privilegio;
                 pboImagenUsuario.Image = eUser.ImagenUsuario;
-            }
+                tmrVerificarConexion.Enabled = true;
         }
 
         private void tsmiGuardarSalir_Click(object sender, EventArgs e)
         {
             nUser.vGuardarSalir();
+        }
+
+        private void tmrVerificarConexion_Tick(object sender, EventArgs e)
+        {
+            TsbConexion.Image = nUser.bmpRevisarConexion();
         }
     }
 }

@@ -123,6 +123,16 @@ namespace Modulo_de_Seguridad_2._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HotelSanCarlos {
+            get {
+                object obj = ResourceManager.GetObject("HotelSanCarlos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logosancarlos {
             get {
                 object obj = ResourceManager.GetObject("logosancarlos", resourceCulture);

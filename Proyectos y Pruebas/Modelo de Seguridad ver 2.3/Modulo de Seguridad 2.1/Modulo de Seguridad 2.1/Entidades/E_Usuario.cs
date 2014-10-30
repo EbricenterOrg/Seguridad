@@ -16,7 +16,6 @@ namespace Modulo_de_Seguridad_2._1.Entidades
         private static String sPrivilegio;
         private static String sCuenta;
         private static Form fFormPrincipal;
-        private static String sFormPrincipal;
         private static byte[] byImagen;
 
         public Form FormularioPrincipal { get { return fFormPrincipal; } set { fFormPrincipal = value; } } 
@@ -26,6 +25,6 @@ namespace Modulo_de_Seguridad_2._1.Entidades
         public String Privilegio { get { return sPrivilegio; } set { sPrivilegio = value; } }
         public String Perfil { get { return sPerfil; } set { sPerfil = value; } }
         public String Cuenta { get { return sCuenta; } set { sCuenta = value; } }
-        public String FormularioAuxiliar { get { return sFormPrincipal; } set { sFormPrincipal = value; } } 
+  
     }
 }

@@ -41,3 +41,14 @@ G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug
 G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.csproj.GenerateResource.Cache
 G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.dll
 G:\Diseño de Sistemas\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Presentacion.ControlUsuario.resources
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Presentacion.wfInicioSesion.resources
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Properties.Resources.resources
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.csproj.GenerateResource.Cache
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\Modulo de Seguridad 2.1.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\Modulo de Seguridad 2.1.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\ODBCconnector.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\bin\Debug\ODBCconnector.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.dll
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo de Seguridad 2.1.pdb
+C:\Users\kiraPC\Documents\Visual Studio 2013\Projects\Modulo de Seguridad 2.1\Modulo de Seguridad 2.1\obj\Debug\Modulo_de_Seguridad_2._1.Presentacion.wfCuenta.resources

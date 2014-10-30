@@ -9,15 +9,15 @@ using System.Windows.Forms;
 using Modulo_de_Seguridad_2._1.Datos;
 using System.Drawing;
 using System.IO;
+using System.Data.Odbc;
 
 namespace Modulo_de_Seguridad_2._1.Negocio
 {
     internal class N_ControlUsr: D_DatoControlUsr
     {
         private E_Usuario eUsuario = new E_Usuario();
-        private string messageBoxText = "Do you want to save changes?";
-        private string caption = "Word Processor";
-    
+        private static string gsConexion = "DSN=HSCconexion";
+        private static OdbcConnection ocConnect;
 
         public Bitmap bmpObtenerImagen(byte[] bbImagen)
         {
@@ -43,13 +43,13 @@ namespace Modulo_de_Seguridad_2._1.Negocio
                 if (bCerrarSesion() == true)
                 {
                     fMenuCerrar.Hide();
-                    new wfInicioSesion(eUsuario.FormularioAuxiliar).Show();
+                    new wfInicioSesion().Show();
                 }
             }
             catch 
             {
                 fMenuCerrar.Hide();
-                new wfInicioSesion(eUsuario.FormularioAuxiliar).Show();
+                new wfInicioSesion().Show();
                 MessageBox.Show("Error al cerrar la sesion");
             }
         }
@@ -96,39 +96,32 @@ namespace Modulo_de_Seguridad_2._1.Negocio
             try
             {
                 fMenuCerrar.Hide();
-                new wfInicioSesion(eUsuario.FormularioAuxiliar).Show();
+                new wfInicioSesion().Show();
                 MessageBox.Show("La Sesion sera Guardada y podra ser utilizada más tarde","Hotel San Carlos");
             }
             catch
             {
                 fMenuCerrar.Hide();
-                new wfInicioSesion(eUsuario.FormularioAuxiliar).Show();
+                new wfInicioSesion().Show();
                 MessageBox.Show("Error al cerrar la sesion");
             }
         }
 
-        public void vRevisarConexion()
+        public Bitmap bmpRevisarConexion()
         {
+            Bitmap bmpImagen = global::Modulo_de_Seguridad_2._1.Properties.Resources.GreenPoint;
             try
             {
-                System.Diagnostics.Process.Start("odbcad32.exe");
+                ocConnect = new OdbcConnection(gsConexion);
+                ocConnect.Open();
+                ocConnect.Close();
+                return bmpImagen = global::Modulo_de_Seguridad_2._1.Properties.Resources.GreenPoint;
             }
-            catch (Exception)
+            catch (OdbcException)
             {
-                try
-                {
-                    System.Diagnostics.Process.Start("odbcad64.exe");
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("No Existe Ninguna de las versiones de ODBC", "ERROR");
-                }
+                return bmpImagen = global::Modulo_de_Seguridad_2._1.Properties.Resources.RedPoint;  
             }
         }
-
-        public void vCambiarPasswor()
-        {
       
-        }
     }
 }

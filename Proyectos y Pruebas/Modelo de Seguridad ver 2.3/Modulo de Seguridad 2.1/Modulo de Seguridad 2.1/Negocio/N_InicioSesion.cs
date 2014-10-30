@@ -21,18 +21,15 @@ namespace Modulo_de_Seguridad_2._1
         private ArrayList alResultados = new ArrayList();
         private E_Usuario E_Usuario = new E_Usuario();
 
-        private void vCargarMenuPrincipal(bool bCargaForm, String sForm)
+        private void vCargarMenuPrincipal(bool bCargaForm)
         {
             if (bCargaForm == true)
             {
                 try
                 {
-                    Assembly asm = Assembly.GetEntryAssembly();
-                    Type formtype = asm.GetType(sForm);
-                    E_Usuario.FormularioAuxiliar = sForm;
-                    Form fFormularioPrincipal = (Form)Activator.CreateInstance(formtype);
+
+                    Form fFormularioPrincipal = E_Usuario.FormularioPrincipal;
                     fFormularioPrincipal.Dock = DockStyle.Fill;
-                    E_Usuario.FormularioPrincipal = fFormularioPrincipal;
                     fFormularioPrincipal.Show();
                 }
                 catch (Exception)
@@ -42,7 +39,7 @@ namespace Modulo_de_Seguridad_2._1
             }
         }
 
-        public void vValidarUsuario(String sUser, String sPass, String sFormPrincipal)
+        public void vValidarUsuario(String sUser, String sPass)
         {
             if (sUser.Length != 0 && sPass.Length != 0)
             {
@@ -61,7 +58,7 @@ namespace Modulo_de_Seguridad_2._1
                                         if (bObtenerPerfil() == true)
                                         {
                                             wfInicioSesion.ActiveForm.Hide();
-                                            vCargarMenuPrincipal(bBuscarAplicaciones(), sFormPrincipal);
+                                            vCargarMenuPrincipal(bBuscarAplicaciones());
                                         }
                                     }   
                                 }
