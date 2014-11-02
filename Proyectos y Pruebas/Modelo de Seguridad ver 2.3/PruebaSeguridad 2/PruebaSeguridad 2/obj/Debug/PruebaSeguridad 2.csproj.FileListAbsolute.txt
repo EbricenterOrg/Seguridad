@@ -11,3 +11,16 @@ c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSe
 c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.csproj.GenerateResource.Cache
 c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.exe
 c:\users\kirapc\documents\visual studio 2013\Projects\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\PruebaSeguridad 2.exe.config
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.exe
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\PruebaSeguridad 2.exe
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\PruebaSeguridad 2.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\Modulo de Seguridad 2.1.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\ODBCconnector.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\Modulo de Seguridad 2.1.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\bin\Debug\ODBCconnector.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.csprojResolveAssemblyReference.cache
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad_2.Form1.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad_2.Properties.Resources.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\Modelo de Seguridad ver 2.3\PruebaSeguridad 2\PruebaSeguridad 2\obj\Debug\PruebaSeguridad 2.csproj.GenerateResource.Cache
