@@ -1,0 +1,14 @@
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\bin\Debug\AgregarQuitar.dll
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\bin\Debug\AgregarQuitar.pdb
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\bin\Debug\HSC_gestionUsuarios.dll
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\bin\Debug\Navegador.dll
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\bin\Debug\ODBCconnector.dll
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\bin\Debug\HSC_gestionUsuarios.pdb
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\bin\Debug\Navegador.pdb
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\bin\Debug\ODBCconnector.pdb
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\obj\Debug\HSC_AgregarQuitar_aplicaciones.csprojResolveAssemblyReference.cache
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\obj\Debug\AgregarQuitar.wfrAgregarQuitar_tab_apli.resources
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\obj\Debug\AgregarQuitar.wfrPrincipal.resources
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\obj\Debug\HSC_AgregarQuitar_aplicaciones.csproj.GenerateResource.Cache
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\obj\Debug\AgregarQuitar.dll
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\AgregarQuitar\AgregarQuitar\obj\Debug\AgregarQuitar.pdb
