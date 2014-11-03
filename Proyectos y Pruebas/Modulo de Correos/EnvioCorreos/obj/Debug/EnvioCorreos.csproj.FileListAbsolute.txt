@@ -1,0 +1,4 @@
+c:\users\kirapc\documents\visual studio 2013\Projects\EnvioCorreos\EnvioCorreos\bin\Debug\EnvioCorreos.dll
+c:\users\kirapc\documents\visual studio 2013\Projects\EnvioCorreos\EnvioCorreos\bin\Debug\EnvioCorreos.pdb
+c:\users\kirapc\documents\visual studio 2013\Projects\EnvioCorreos\EnvioCorreos\obj\Debug\EnvioCorreos.dll
+c:\users\kirapc\documents\visual studio 2013\Projects\EnvioCorreos\EnvioCorreos\obj\Debug\EnvioCorreos.pdb
