@@ -12,6 +12,7 @@ namespace Modulo_de_Seguridad_3._0.Entidades
         private static ArrayList alApps;
         private static ArrayList alAppsPersonales;
         private static int iCodUsr;
+        private static int iPrivilegio;
 
         public ArrayList alAplicaciones
         {
@@ -29,6 +30,12 @@ namespace Modulo_de_Seguridad_3._0.Entidades
         {
             get { return iCodUsr; }
             set { iCodUsr = value; }
+        }
+
+        public int iCodigoPrivilegio
+        {
+            get { return iPrivilegio; }
+            set { iPrivilegio = value; }
         }
     }
 }

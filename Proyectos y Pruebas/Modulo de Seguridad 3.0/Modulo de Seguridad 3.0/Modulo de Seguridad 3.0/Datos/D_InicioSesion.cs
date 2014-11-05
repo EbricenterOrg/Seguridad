@@ -96,6 +96,7 @@ namespace Modulo_de_Seguridad_3._0.Datos
                 foreach (ArrayList Datos in alResultados)
                 {
                     ePerfil.CodigoUsuario = Convert.ToInt32(Datos[0]);
+                    eDatosPublicos.iCodigoPrivilegio = Convert.ToInt32(Datos[0]);
                 }
                 return true;
             }

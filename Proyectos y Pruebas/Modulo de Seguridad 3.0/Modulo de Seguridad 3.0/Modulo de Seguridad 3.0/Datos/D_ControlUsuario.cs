@@ -38,15 +38,22 @@ namespace Modulo_de_Seguridad_3._0.Datos
         {
             sQuery = "SELECT nom1_emp, nom2_emp, apell1_emp, apell2_emp FROM tabm_nnempleado WHERE cod_emp = " + ePerfil.CodigoEmpleado;
             alResultados = csFunciones.alConsultar(sQuery);
-            if (alResultados.Count != 0)
+            try
             {
-                foreach (ArrayList Datos in alResultados)
+                if (alResultados.Count != 0)
                 {
-                    eUsuario.NombreUsuario = Datos[0] + " " + Datos[1] + " " + Datos[2] + " " + Datos[3];
+                    foreach (ArrayList Datos in alResultados)
+                    {
+                        eUsuario.NombreUsuario = Datos[0] + " " + Datos[1] + " " + Datos[2] + " " + Datos[3];
+                    }
+                    return true;
                 }
-                return true;
+                else
+                {
+                    return false;
+                }
             }
-            else
+            catch
             {
                 return false;
             }
@@ -67,15 +74,22 @@ namespace Modulo_de_Seguridad_3._0.Datos
         {
             sQuery = "SELECT nom_pfl FROM tabm_sgperfil WHERE cod_pfll = " + ePerfil.CodigoPerfil;
             alResultados = csFunciones.alConsultar(sQuery);
-            if (alResultados.Count != 0)
+            try
             {
-                foreach (ArrayList Datos in alResultados)
+                if (alResultados.Count != 0)
                 {
-                    eUsuario.Perfil = Datos[0].ToString();
+                    foreach (ArrayList Datos in alResultados)
+                    {
+                        eUsuario.Perfil = Datos[0].ToString();
+                    }
+                    return true;
                 }
-                return true;
+                else
+                {
+                    return false;
+                }
             }
-            else
+            catch
             {
                 return false;
             }
@@ -98,7 +112,7 @@ namespace Modulo_de_Seguridad_3._0.Datos
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error al obtener una imagen" + ex, "Error");
+                    MessageBox.Show("Error al obtener una imagen", "Error");
                 }
             }
             return true;
@@ -108,15 +122,22 @@ namespace Modulo_de_Seguridad_3._0.Datos
         {
             sQuery = "SELECT nom1_emp, nom2_emp, apell1_emp, apell2_emp FROM tabm_nnempleado T1 INNER JOIN tabm_sgusuario T2 ON T1.cod_emp = T2.cod_emp WHERE cuenta_usr = \"" + sCuenta + "\"";
             alResultados = csFunciones.alConsultar(sQuery);
-            if (alResultados.Count != 0)
+            try
             {
-                foreach (ArrayList Datos in alResultados)
+                if (alResultados.Count != 0)
                 {
-                    eUsuario.NombreUsuario = Datos[0] + " " + Datos[1] + " " + Datos[2] + " " + Datos[3];
+                    foreach (ArrayList Datos in alResultados)
+                    {
+                        eUsuario.NombreUsuario = Datos[0] + " " + Datos[1] + " " + Datos[2] + " " + Datos[3];
+                    }
+                    return true;
                 }
-                return true;
+                else
+                {
+                    return false;
+                }
             }
-            else
+            catch
             {
                 return false;
             }
