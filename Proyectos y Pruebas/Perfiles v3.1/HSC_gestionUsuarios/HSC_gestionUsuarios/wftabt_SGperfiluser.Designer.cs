@@ -1,4 +1,4 @@
-﻿namespace HSC_gestionUsuarios
+﻿namespace HSC_gestionPerfiles
 {
     partial class wftabt_SGperfiluser
     {
@@ -70,6 +70,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "tabt_SGperfiusuario";
             this.navegador1.TabIndex = 104;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // lblcod_perfilusuario
             // 

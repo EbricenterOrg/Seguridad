@@ -15,7 +15,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HSC_gestionUsuarios
+namespace HSC_gestionPerfiles
 {
     public partial class wftabt_SGperfilapp : Form
     {
@@ -151,6 +151,14 @@ namespace HSC_gestionUsuarios
         {
             txtfechcreac_perfapp.Text = DateTime.Now.ToString("yyyy/M/d");
            
+        }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            btnObtener.Enabled = true;
+            btnCodAp.Enabled = true;
+            btnCodPerf.Enabled = true;
+            txtfechcreac_perfapp.Enabled = false;
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace HSC_gestionUsuarios
+﻿namespace HSC_gestionPerfiles
 {
     partial class wftabt_SGperfilapp
     {
@@ -69,6 +69,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = " tabt_sgperfilapp";
             this.navegador1.TabIndex = 12;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // txtestado_perfapp
             // 

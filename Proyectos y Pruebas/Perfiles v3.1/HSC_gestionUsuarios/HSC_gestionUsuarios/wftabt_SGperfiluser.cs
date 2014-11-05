@@ -14,7 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HSC_gestionUsuarios
+namespace HSC_gestionPerfiles
 {
     public partial class wftabt_SGperfiluser : Form
     {
@@ -48,6 +48,8 @@ namespace HSC_gestionUsuarios
             alDatosEnviados.Add(txtestado_perfusr);
             navegador1.alDatosEntrada = alDatosEnviados;
             navegador1.vIniciarNavegador();
+
+            btnFechC.Enabled = bbtnFechCreaModif;
         }
 
         private void txtcod_priv_TextChanged(object sender, EventArgs e)
@@ -103,6 +105,16 @@ namespace HSC_gestionUsuarios
 
         private void txtfechmodif_perfusr_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            btnFechC.Enabled = true;
+            btnObtenerCodusr.Enabled = true;
+            btnObtenerCodPerfil.Enabled = true;
+            txtfechcreac_perfusr.Enabled = false;
+            txtfechmodif_perfusr.Enabled = false;
 
         }
     }

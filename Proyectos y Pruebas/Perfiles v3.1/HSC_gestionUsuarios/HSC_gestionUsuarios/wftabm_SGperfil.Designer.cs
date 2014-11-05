@@ -1,4 +1,4 @@
-﻿namespace HSC_gestionUsuarios
+﻿namespace HSC_gestionPerfiles
 {
     partial class wftabm_SGperfil
     {
@@ -132,6 +132,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "tabm_sgperfil";
             this.navegador1.TabIndex = 40;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // lblpregunta_secreta
             // 

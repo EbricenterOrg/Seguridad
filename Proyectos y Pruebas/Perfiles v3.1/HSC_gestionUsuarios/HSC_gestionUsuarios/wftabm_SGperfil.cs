@@ -14,7 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HSC_gestionUsuarios
+namespace HSC_gestionPerfiles
 {
     public partial class wftabm_SGperfil : Form
     {
@@ -100,6 +100,12 @@ namespace HSC_gestionUsuarios
         {
             txtFechCreacion.Text = DateTime.Now.ToString("yyyy/M/d");
             txtFechModif.Text = DateTime.Now.ToString("yyyy/M/d");
+        }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            btnObtenerFechas.Enabled = true;
+            txtFechCreacion.Enabled = false;
         }
     }
 }

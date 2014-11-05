@@ -7,8 +7,8 @@
     <ProjectGuid>{8B59896A-3D40-4BA2-BD47-CEC711819F52}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HSC_gestionUsuarios</RootNamespace>
-    <AssemblyName>HSC_gestionUsuarios</AssemblyName>
+    <RootNamespace>HSC_gestionPerfiles</RootNamespace>
+    <AssemblyName>HSC_gestionPerfiles</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -28,6 +28,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Navegador">
