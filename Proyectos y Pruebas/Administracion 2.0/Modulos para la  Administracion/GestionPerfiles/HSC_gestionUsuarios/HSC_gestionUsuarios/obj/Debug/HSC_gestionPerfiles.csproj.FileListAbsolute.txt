@@ -1,0 +1,55 @@
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabm_SGperfilapp.resources
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabm_SGperfilusuario.resources
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabm_SGperfil.resources
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.dll
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionUsuarios.dll
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionUsuarios.pdb
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.pdb
+C:\Users\Jessica\Desktop\Gestion de Usuarios v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabm_SGperfiluser.resources
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabm_SGperfil.resources
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.dll
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionUsuarios.dll
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionUsuarios.pdb
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.pdb
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabt_SGperfiluser.resources
+C:\Users\Jessica\Desktop\Perfiles v2.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabt_SGperfilapp.resources
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionUsuarios.dll
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionUsuarios.pdb
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabt_SGperfiluser.resources
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabt_SGperfilapp.resources
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabm_SGperfil.resources
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.dll
+C:\Users\Jessica\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.pdb
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionPerfiles.dll
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionPerfiles.pdb
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csprojResolveAssemblyReference.cache
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csproj.GenerateResource.Cache
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.dll
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.pdb
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabt_SGperfiluser.resources
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabt_SGperfilapp.resources
+C:\Users\Orochi\Desktop\Perfiles v3.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabm_SGperfil.resources
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionPerfiles.dll
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionPerfiles.pdb
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabt_SGperfiluser.resources
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabt_SGperfilapp.resources
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabm_SGperfil.resources
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.dll
+C:\Users\Jessica\Desktop\Perfiles v4.0\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.pdb
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csprojResolveAssemblyReference.cache
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabt_SGperfiluser.resources
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabt_SGperfilapp.resources
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.wftabm_SGperfil.resources
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionPerfiles.csproj.GenerateResource.Cache
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\GestionPerfiles.dll
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\GestionPerfiles.pdb
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\GestionPerfiles.dll
+C:\Users\miniKiraPortatil\Desktop\Modulos para la Amdinistracion\GestionPerfiles\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\GestionPerfiles.pdb

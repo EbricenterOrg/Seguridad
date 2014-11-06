@@ -1,0 +1,17 @@
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Administrador\Administrador\bin\Debug\Administrador.dll
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Administrador\Administrador\bin\Debug\Administrador.pdb
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.Properties.Resources.resources
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.wfAdminitrador.resources
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.csproj.GenerateResource.Cache
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.dll
+c:\users\minikiraportatil\documents\visual studio 2013\Projects\Administrador\Administrador\obj\Debug\Administrador.pdb
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\GestionAplicaciones.dll
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\GestionPerfiles.dll
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\GestionUsuarios.dll
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\Navegador.dll
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\ODBCconnector.dll
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\GestionAplicaciones.pdb
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\GestionPerfiles.pdb
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\GestionUsuarios.pdb
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\Navegador.pdb
+C:\Users\miniKiraPortatil\Documents\Visual Studio 2013\Projects\Administrador\Administrador\bin\Debug\ODBCconnector.pdb
