@@ -42,8 +42,6 @@
             this.txtinsert = new System.Windows.Forms.TextBox();
             this.lblinsert = new System.Windows.Forms.Label();
             this.txtselect = new System.Windows.Forms.TextBox();
-            this.cbocod_app = new System.Windows.Forms.ComboBox();
-            this.cbocod_perfil = new System.Windows.Forms.ComboBox();
             this.txtfechcreac_perfapp = new System.Windows.Forms.TextBox();
             this.txtcod_app = new System.Windows.Forms.TextBox();
             this.txtcod_perfapp = new System.Windows.Forms.TextBox();
@@ -125,10 +123,10 @@
             this.lblestado.ForeColor = System.Drawing.Color.Black;
             this.lblestado.Location = new System.Drawing.Point(83, 455);
             this.lblestado.Name = "lblestado";
-            this.lblestado.Size = new System.Drawing.Size(92, 15);
+            this.lblestado.Size = new System.Drawing.Size(45, 15);
             this.lblestado.TabIndex = 93;
             this.lblestado.Tag = "estado_usr";
-            this.lblestado.Text = "Estado usuario:";
+            this.lblestado.Text = "Estado";
             // 
             // lblimprimir
             // 
@@ -192,24 +190,6 @@
             this.txtselect.TabIndex = 19;
             this.txtselect.Tag = "select_papp";
             // 
-            // cbocod_app
-            // 
-            this.cbocod_app.FormattingEnabled = true;
-            this.cbocod_app.Location = new System.Drawing.Point(255, 232);
-            this.cbocod_app.Name = "cbocod_app";
-            this.cbocod_app.Size = new System.Drawing.Size(82, 21);
-            this.cbocod_app.TabIndex = 15;
-            this.cbocod_app.Tag = "cod_app";
-            // 
-            // cbocod_perfil
-            // 
-            this.cbocod_perfil.FormattingEnabled = true;
-            this.cbocod_perfil.Location = new System.Drawing.Point(255, 205);
-            this.cbocod_perfil.Name = "cbocod_perfil";
-            this.cbocod_perfil.Size = new System.Drawing.Size(82, 21);
-            this.cbocod_perfil.TabIndex = 14;
-            this.cbocod_perfil.Tag = "cod_pfl";
-            // 
             // txtfechcreac_perfapp
             // 
             this.txtfechcreac_perfapp.Enabled = false;
@@ -221,9 +201,9 @@
             // 
             // txtcod_app
             // 
-            this.txtcod_app.Location = new System.Drawing.Point(343, 233);
+            this.txtcod_app.Location = new System.Drawing.Point(255, 241);
             this.txtcod_app.Name = "txtcod_app";
-            this.txtcod_app.Size = new System.Drawing.Size(53, 20);
+            this.txtcod_app.Size = new System.Drawing.Size(141, 20);
             this.txtcod_app.TabIndex = 74;
             this.txtcod_app.Tag = "cod_app";
             // 
@@ -231,7 +211,7 @@
             // 
             this.txtcod_perfapp.Location = new System.Drawing.Point(255, 179);
             this.txtcod_perfapp.Name = "txtcod_perfapp";
-            this.txtcod_perfapp.Size = new System.Drawing.Size(82, 20);
+            this.txtcod_perfapp.Size = new System.Drawing.Size(141, 20);
             this.txtcod_perfapp.TabIndex = 13;
             this.txtcod_perfapp.Tag = "cod_papp";
             this.txtcod_perfapp.TextChanged += new System.EventHandler(this.txtcod_usr_TextChanged);
@@ -271,9 +251,9 @@
             // 
             // txtcod_perfil
             // 
-            this.txtcod_perfil.Location = new System.Drawing.Point(343, 205);
+            this.txtcod_perfil.Location = new System.Drawing.Point(255, 213);
             this.txtcod_perfil.Name = "txtcod_perfil";
-            this.txtcod_perfil.Size = new System.Drawing.Size(53, 20);
+            this.txtcod_perfil.Size = new System.Drawing.Size(141, 20);
             this.txtcod_perfil.TabIndex = 72;
             this.txtcod_perfil.Tag = "cod_pfl";
             // 
@@ -363,8 +343,6 @@
             this.Controls.Add(this.txtinsert);
             this.Controls.Add(this.lblinsert);
             this.Controls.Add(this.txtselect);
-            this.Controls.Add(this.cbocod_app);
-            this.Controls.Add(this.cbocod_perfil);
             this.Controls.Add(this.txtfechcreac_perfapp);
             this.Controls.Add(this.txtcod_app);
             this.Controls.Add(this.txtcod_perfapp);
@@ -399,8 +377,6 @@
         private System.Windows.Forms.TextBox txtinsert;
         private System.Windows.Forms.Label lblinsert;
         private System.Windows.Forms.TextBox txtselect;
-        private System.Windows.Forms.ComboBox cbocod_app;
-        private System.Windows.Forms.ComboBox cbocod_perfil;
         private System.Windows.Forms.TextBox txtfechcreac_perfapp;
         private System.Windows.Forms.TextBox txtcod_app;
         private System.Windows.Forms.TextBox txtcod_perfapp;

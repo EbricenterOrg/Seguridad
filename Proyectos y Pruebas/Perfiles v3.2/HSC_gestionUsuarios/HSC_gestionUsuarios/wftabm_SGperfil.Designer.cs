@@ -42,8 +42,6 @@
             this.txtFechCreacion = new System.Windows.Forms.TextBox();
             this.txtFechModif = new System.Windows.Forms.TextBox();
             this.lblfechmodif_perfil = new System.Windows.Forms.Label();
-            this.txtPerfilTecnico = new System.Windows.Forms.TextBox();
-            this.lblperfiltecnico = new System.Windows.Forms.Label();
             this.btnObtenerFechas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -186,25 +184,6 @@
             this.lblfechmodif_perfil.Text = "Fecha modificacion";
             this.lblfechmodif_perfil.Click += new System.EventHandler(this.label1_Click);
             // 
-            // txtPerfilTecnico
-            // 
-            this.txtPerfilTecnico.Location = new System.Drawing.Point(141, 318);
-            this.txtPerfilTecnico.Name = "txtPerfilTecnico";
-            this.txtPerfilTecnico.Size = new System.Drawing.Size(173, 20);
-            this.txtPerfilTecnico.TabIndex = 110;
-            this.txtPerfilTecnico.Tag = "perte_pfl";
-            // 
-            // lblperfiltecnico
-            // 
-            this.lblperfiltecnico.AutoSize = true;
-            this.lblperfiltecnico.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblperfiltecnico.ForeColor = System.Drawing.Color.Black;
-            this.lblperfiltecnico.Location = new System.Drawing.Point(20, 323);
-            this.lblperfiltecnico.Name = "lblperfiltecnico";
-            this.lblperfiltecnico.Size = new System.Drawing.Size(77, 15);
-            this.lblperfiltecnico.TabIndex = 109;
-            this.lblperfiltecnico.Text = "Perfil tecnico";
-            // 
             // btnObtenerFechas
             // 
             this.btnObtenerFechas.Location = new System.Drawing.Point(346, 265);
@@ -222,8 +201,6 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(683, 413);
             this.Controls.Add(this.btnObtenerFechas);
-            this.Controls.Add(this.txtPerfilTecnico);
-            this.Controls.Add(this.lblperfiltecnico);
             this.Controls.Add(this.txtFechModif);
             this.Controls.Add(this.lblfechmodif_perfil);
             this.Controls.Add(this.txtFechCreacion);
@@ -261,8 +238,6 @@
         private System.Windows.Forms.TextBox txtFechCreacion;
         private System.Windows.Forms.TextBox txtFechModif;
         private System.Windows.Forms.Label lblfechmodif_perfil;
-        private System.Windows.Forms.TextBox txtPerfilTecnico;
-        private System.Windows.Forms.Label lblperfiltecnico;
         private System.Windows.Forms.Button btnObtenerFechas;
     }
 }

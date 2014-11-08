@@ -44,7 +44,6 @@ namespace HSC_gestionPerfiles
             alDatosEnviados.Add(txtcod_perfil);
             alDatosEnviados.Add(txtFechCreacion);
             alDatosEnviados.Add(txtFechModif);
-            alDatosEnviados.Add(txtPerfilTecnico);
             alDatosEnviados.Add(txtestado_perfil);
             navegador1.alDatosEntrada = alDatosEnviados;
             navegador1.vIniciarNavegador();

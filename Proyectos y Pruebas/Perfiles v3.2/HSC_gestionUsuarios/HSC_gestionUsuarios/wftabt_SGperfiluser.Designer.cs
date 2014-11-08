@@ -131,7 +131,7 @@
             // 
             this.txtcod_perfilusuario.Location = new System.Drawing.Point(218, 153);
             this.txtcod_perfilusuario.Name = "txtcod_perfilusuario";
-            this.txtcod_perfilusuario.Size = new System.Drawing.Size(60, 20);
+            this.txtcod_perfilusuario.Size = new System.Drawing.Size(141, 20);
             this.txtcod_perfilusuario.TabIndex = 110;
             this.txtcod_perfilusuario.Tag = "cod_pusr";
             this.txtcod_perfilusuario.TextChanged += new System.EventHandler(this.txtcod_priv_TextChanged);
@@ -140,7 +140,7 @@
             // 
             this.txtnom_codusr.Location = new System.Drawing.Point(218, 185);
             this.txtnom_codusr.Name = "txtnom_codusr";
-            this.txtnom_codusr.Size = new System.Drawing.Size(203, 20);
+            this.txtnom_codusr.Size = new System.Drawing.Size(141, 20);
             this.txtnom_codusr.TabIndex = 111;
             this.txtnom_codusr.Tag = "cod_usr";
             // 
