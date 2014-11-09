@@ -1,0 +1,14 @@
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\bin\Debug\modulo_contabilidad.dll
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\bin\Debug\modulo_contabilidad.pdb
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\bin\Debug\Navegador.dll
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\bin\Debug\ODBCconnector.dll
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\bin\Debug\Navegador.pdb
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\bin\Debug\ODBCconnector.pdb
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.wfrtabm_CTcompconta.resources
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.csproj.GenerateResource.Cache
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.dll
+c:\users\orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.pdb
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.wfrtabm_CTdiario.resources
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.wfrtabm_CTdoccomp.resources
+C:\Users\Orochi\Documents\Visual Studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.frmDATA_tabm_CTdoccomp.resources
+C:\Users\Orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.csprojResolveAssemblyReference.cache
