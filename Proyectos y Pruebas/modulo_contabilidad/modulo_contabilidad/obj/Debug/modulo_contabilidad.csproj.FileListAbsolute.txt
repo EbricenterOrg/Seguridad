@@ -12,3 +12,15 @@ C:\Users\Orochi\Documents\Visual Studio 2013\Projects\modulo_contabilidad\modulo
 C:\Users\Orochi\Documents\Visual Studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.wfrtabm_CTdoccomp.resources
 C:\Users\Orochi\Documents\Visual Studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.frmDATA_tabm_CTdoccomp.resources
 C:\Users\Orochi\documents\visual studio 2013\Projects\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.csprojResolveAssemblyReference.cache
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\bin\Debug\modulo_contabilidad.dll
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\bin\Debug\modulo_contabilidad.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\bin\Debug\Navegador.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\bin\Debug\ODBCconnector.pdb
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.csprojResolveAssemblyReference.cache
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.frmDATA_tabm_CTdoccomp.resources
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.wfrtabm_CTcompconta.resources
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.wfrtabm_CTdiario.resources
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.wfrtabm_CTdoccomp.resources
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.csproj.GenerateResource.Cache
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.dll
+C:\Users\OWNER\Documents\GitHub\Seguridad\Proyectos y Pruebas\modulo_contabilidad\modulo_contabilidad\obj\Debug\modulo_contabilidad.pdb

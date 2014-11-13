@@ -1,0 +1,10 @@
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\bin\Debug\HSC_gestionBancos.dll
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\bin\Debug\HSC_gestionBancos.pdb
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\bin\Debug\Navegador.dll
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\bin\Debug\ODBCconnector.dll
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\bin\Debug\Navegador.pdb
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\bin\Debug\ODBCconnector.pdb
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\obj\Debug\HSC_gestionBancos.wftabm_BCcuentabanco.resources
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\obj\Debug\HSC_gestionBancos.csproj.GenerateResource.Cache
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\obj\Debug\HSC_gestionBancos.dll
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos\HSC_gestionBancos\obj\Debug\HSC_gestionBancos.pdb
