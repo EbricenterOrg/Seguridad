@@ -43,6 +43,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\HSC_inventario\HSC_inventario\bin\Debug\HSC_inventario.dll</HintPath>
     </Reference>
+    <Reference Include="Modulo de Seguridad 3.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Pruebas\Objetos Comunes\Seguridad\Modulo de Seguridad 3.1\Modulo de Seguridad 3.0\bin\Debug\Modulo de Seguridad 3.0.dll</HintPath>
+    </Reference>
     <Reference Include="modulo_contabilidad">
       <HintPath>..\..\modulo_contabilidad\modulo_contabilidad\bin\Debug\modulo_contabilidad.dll</HintPath>
     </Reference>

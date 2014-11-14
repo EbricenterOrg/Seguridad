@@ -27,3 +27,20 @@ C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bi
 C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_inventario.pdb
 C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_gestionBancos2.dll
 C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_gestionBancos2.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.exe.config
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.exe
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.exe
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\Modulo de Seguridad 3.0.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\modulo_contabilidad.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\Navegador.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\EnvioCorreos.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\ODBCconnector.dll
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\Modulo de Seguridad 3.0.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\modulo_contabilidad.pdb
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.csprojResolveAssemblyReference.cache
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V._2.wfMenuPrincipal.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V._2.Properties.Resources.resources
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.csproj.GenerateResource.Cache
+C:\Users\miniKiraPortatil\Documents\GitHub\Seguridad\Proyectos y Pruebas\MDI\Prototipo_No_Funcional_V.2\bin\Debug\Navegador.pdb

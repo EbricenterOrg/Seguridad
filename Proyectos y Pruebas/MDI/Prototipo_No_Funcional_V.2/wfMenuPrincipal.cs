@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using modulo_contabilidad;
+using Modulo_de_Seguridad_3._0.Negocio;
+using Modulo_de_Seguridad_3._0.Presentacion;
 
 namespace Prototipo_No_Funcional_V._2
 {
@@ -34,7 +36,7 @@ namespace Prototipo_No_Funcional_V._2
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            new N_ControlesUsuario().vSalirSesion();
         }
 
         private void btnHuesped_Click(object sender, EventArgs e)
@@ -132,6 +134,11 @@ namespace Prototipo_No_Funcional_V._2
             HSC_inventario.wfmovdiario wfmov = new HSC_inventario.wfmovdiario();
             wfmov.MdiParent = this;
             wfmov.Show();
+        }
+
+        private void cuentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new wfCuenta().Show();
         }
 
         

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Modulo_de_Seguridad_3._0.Presentacion;
 
 namespace Prototipo_No_Funcional_V._2
 {
@@ -16,7 +17,7 @@ namespace Prototipo_No_Funcional_V._2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new wfMenuPrincipal());
+            Application.Run(new wfInicioSesion(new wfMenuPrincipal()));
         }
     }
 }
