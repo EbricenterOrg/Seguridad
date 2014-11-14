@@ -58,5 +58,10 @@ namespace HSC_gestionBancos2
         {
 
         }
+
+        private void txtcod_ctabco_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -203,6 +203,7 @@
             this.txtcod_ctabco.Size = new System.Drawing.Size(100, 20);
             this.txtcod_ctabco.TabIndex = 13;
             this.txtcod_ctabco.Tag = "cod_ctabco";
+            this.txtcod_ctabco.TextChanged += new System.EventHandler(this.txtcod_ctabco_TextChanged);
             // 
             // txtcod_mov
             // 

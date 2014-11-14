@@ -1,0 +1,26 @@
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabt_BCpagoprem.resources
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabt_BChistoriabanc.resources
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabm_BCprestamo.resources
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.csproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionBancos.dll
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionBancos.pdb
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.dll
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.pdb
+C:\Users\Jessica\Desktop\Bancos BCcontab,BCpagoprem,BChistoriabanc,BCprestamo\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionUsuarios.wftabt_BCctacontab.resources
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionBancos.dll
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\bin\Debug\HSC_gestionBancos.pdb
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.wftabt_BCctacontab.resources
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.wftabt_BCpagoprem.resources
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.wftabt_BChistoriabanc.resources
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.wftabm_BCprestamo.resources
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.csproj.GenerateResource.Cache
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.dll
+C:\Users\Orochi\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.pdb
+C:\Users\Jessica\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.wftabt_BCctacontab.resources
+C:\Users\Jessica\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.wftabt_BCpagoprem.resources
+C:\Users\Jessica\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.wftabt_BChistoriabanc.resources
+C:\Users\Jessica\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.wftabm_BCprestamo.resources
+C:\Users\Jessica\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.csproj.GenerateResource.Cache
+C:\Users\Jessica\Desktop\HSC_gestionUsuarios\HSC_gestionUsuarios\HSC_gestionUsuarios\obj\Debug\HSC_gestionBancos.dll
