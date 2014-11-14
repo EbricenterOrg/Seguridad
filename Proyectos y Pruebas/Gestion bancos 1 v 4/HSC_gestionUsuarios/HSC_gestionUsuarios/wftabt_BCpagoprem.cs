@@ -14,6 +14,13 @@ namespace HSC_gestionBancos
     public partial class wftabt_BCpagoprem : Form
     {
         private bool BbtnAgregar, BbtnObtener;
+        private string Scodprestamo = string.Empty;
+
+        public string Scodprestamo1
+        {
+            get { return Scodprestamo; }
+            set { Scodprestamo = value; }
+        }
 
         public bool BbtnObtener1
         {
@@ -88,7 +95,7 @@ namespace HSC_gestionBancos
             
             wftabm_BCprestamo frmprestamo = new wftabm_BCprestamo();
             frmprestamo.ShowDialog();
-            txtCodPrestamo.Text = wftabm_BCprestamo.ScodPrestamo;
+            txtCodPrestamo.Text = frmprestamo.Scodprestamo1;
             
 
         }

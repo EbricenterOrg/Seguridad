@@ -14,7 +14,7 @@ namespace HSC_gestionBancos
     public partial class wftabm_BCprestamo : Form
     {
         private String Scodig = string.Empty;
-        private string ScodPrestamo = string.Empty;
+      
         private bool BbtnObtener;
 
         public bool BbtnObtener1

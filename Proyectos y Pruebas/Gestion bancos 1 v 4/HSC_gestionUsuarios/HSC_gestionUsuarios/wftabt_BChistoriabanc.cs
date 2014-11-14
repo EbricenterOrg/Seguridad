@@ -15,7 +15,21 @@ namespace HSC_gestionBancos
     public partial class wftabt_BChistoriabanc : Form
     {
         private bool BbtnAgregar;
-        
+        private string Scodctacontab2 = string.Empty;
+        private string Stxtcodctaconta = string.Empty;
+
+        public string Stxtcodctaconta1
+        {
+            get { return Stxtcodctaconta; }
+            set { Stxtcodctaconta = value; }
+        }
+
+
+        public string Scodctacontab21
+        {
+            get { return Scodctacontab2; }
+            set { Scodctacontab2 = value; }
+        }
 
         public bool BbtnAgregar1
         {
@@ -117,7 +131,7 @@ namespace HSC_gestionBancos
         {
             wftabt_BCctacontab frmctacontab = new wftabt_BCctacontab();
             frmctacontab.ShowDialog();
-            txtCodigoCta.Text = wftabt_BCctacontab.Scodctacontab;
+            txtCodCuentaCta.Text = frmctacontab.Stxtcodctacontab1;
         }
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
@@ -127,7 +141,7 @@ namespace HSC_gestionBancos
 
         private void txtCodCuentaCta_TextChanged(object sender, EventArgs e)
         {
-            Scodctacontab = txtCodigoCta.Text;
+            Stxtcodctaconta1 = txtCodCuentaCta.Text;
 
         }
     }
