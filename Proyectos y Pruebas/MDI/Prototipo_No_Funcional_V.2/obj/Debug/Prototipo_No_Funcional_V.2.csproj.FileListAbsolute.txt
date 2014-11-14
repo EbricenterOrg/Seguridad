@@ -1,0 +1,29 @@
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.exe.config
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.exe
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.pdb
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.csprojResolveAssemblyReference.cache
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V._2.Properties.Resources.resources
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.csproj.GenerateResource.Cache
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.exe
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.pdb
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V._2.wfMenuPrincipal.resources
+c:\users\cesar flores\documents\visual studio 2013\Projects\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V._2.wfHuesped.resources
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.exe.config
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.exe
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.pdb
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.csprojResolveAssemblyReference.cache
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V._2.wfMenuPrincipal.resources
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V._2.Properties.Resources.resources
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\obj\Debug\Prototipo_No_Funcional_V.2.csproj.GenerateResource.Cache
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.exe
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\Prototipo_No_Funcional_V.2.pdb
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\modulo_contabilidad.dll
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\Navegador.dll
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\ODBCconnector.dll
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\modulo_contabilidad.pdb
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_gestionBancos.dll
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_gestionBancos.pdb
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_inventario.dll
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_inventario.pdb
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_gestionBancos2.dll
+C:\Users\Orochi\Desktop\Prototipo_No_Funcional_V.2\Prototipo_No_Funcional_V.2\bin\Debug\HSC_gestionBancos2.pdb
