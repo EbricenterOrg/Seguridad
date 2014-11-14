@@ -1,0 +1,11 @@
+c:\users\owner\documents\visual studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\bin\Debug\HSC_gestionBancos2.dll
+c:\users\owner\documents\visual studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\bin\Debug\HSC_gestionBancos2.pdb
+c:\users\owner\documents\visual studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\obj\Debug\HSC_gestionBancos2.csproj.GenerateResource.Cache
+c:\users\owner\documents\visual studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\obj\Debug\HSC_gestionBancos2.dll
+c:\users\owner\documents\visual studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\obj\Debug\HSC_gestionBancos2.pdb
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\bin\Debug\Navegador.dll
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\bin\Debug\Navegador.pdb
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\obj\Debug\HSC_gestionBancos2.wftabm_bccuentabanco.resources
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\obj\Debug\HSC_gestionBancos2.wftabt_bcmovbanc.resources
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\bin\Debug\modulo_contabilidad.dll
+C:\Users\OWNER\Documents\Visual Studio 2013\Projects\HSC_gestionBancos2\HSC_gestionBancos2\bin\Debug\modulo_contabilidad.pdb
