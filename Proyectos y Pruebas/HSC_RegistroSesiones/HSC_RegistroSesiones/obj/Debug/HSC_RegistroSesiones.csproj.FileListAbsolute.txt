@@ -1,0 +1,10 @@
+C:\Users\Derick\AppData\Local\Temporary Projects\HSC_RegistroSesiones\bin\Debug\HSC_RegistroSesiones.exe.config
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\obj\Debug\HSC_RegistroSesiones.Form1.resources
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\obj\Debug\HSC_RegistroSesiones.Properties.Resources.resources
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\obj\Debug\HSC_RegistroSesiones.csproj.GenerateResource.Cache
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\bin\Debug\HSC_RegistroSesiones.dll.config
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\bin\Debug\HSC_RegistroSesiones.dll
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\bin\Debug\HSC_RegistroSesiones.pdb
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\bin\Debug\ODBCconnector.dll
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\obj\Debug\HSC_RegistroSesiones.dll
+C:\Users\Derick\Documents\Visual Studio 2012\Projects\HSC_RegistroSesiones\HSC_RegistroSesiones\obj\Debug\HSC_RegistroSesiones.pdb
