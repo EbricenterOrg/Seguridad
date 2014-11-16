@@ -1,4 +1,8 @@
-﻿using System;
+﻿/* Desarrollador: Jorge Leonel Lam
+ * Fecha: 01/10/2014
+ */
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;

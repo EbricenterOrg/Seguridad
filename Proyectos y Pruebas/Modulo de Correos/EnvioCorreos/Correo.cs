@@ -1,4 +1,8 @@
-﻿using System;
+﻿/* Desarrollador: Jaime Ivan Muñoz
+ * Fecha: 15/10/2014
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
