@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*Autor : "Jessica Castellanos"
+ * Fecha: "Octubre 2014"
+ * Comentario:" Este modulo trabajara el formulario prestamo"
+ * */
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
